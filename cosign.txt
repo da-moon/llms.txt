@@ -1,0 +1,84 @@
+# Cosign
+
+> Cosign is a tool for container signing, verification and storage in an OCI registry. It enables signing container images and other artifacts, verification, and managing signatures as part of the Sigstore project.
+
+Cosign allows developers to cryptographically sign and verify software artifacts such as container images, blobs, and other OCI artifacts. It integrates with existing container registries and provides tools for key management, signature generation, verification, and attestation workflows.
+
+## Commands
+
+- [Cosign Overview](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign.md): Main documentation for the cosign command line tool.
+- [Attach](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_attach.md): Commands for attaching artifacts to images.
+- [Attach Attestation](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_attach_attestation.md): Attach attestations to images.
+- [Attach SBOM](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_attach_sbom.md): Attach SBOM to images.
+- [Attach Signature](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_attach_signature.md): Attach signatures to images.
+- [Attest Blob](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_attest-blob.md): Attest the supplied blob.
+- [Attest](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_attest.md): Attest the supplied container image.
+- [Bundle](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_bundle.md): Bundle related artifacts together.
+- [Bundle Create](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_bundle_create.md): Create a bundle from the supplied artifacts.
+- [Clean](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_clean.md): Remove all signatures from an image.
+- [Completion](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_completion.md): Generate shell completion script.
+- [Copy](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_copy.md): Copy the supplied container image and signatures.
+- [Dockerfile](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_dockerfile.md): Provides utilities for interacting with a Dockerfile.
+- [Dockerfile Verify](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_dockerfile_verify.md): Verify a Dockerfile by checking that all images are signed.
+- [Download](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_download.md): Download signatures and other artifacts from the supplied container image.
+- [Download Attestation](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_download_attestation.md): Download attestations from the supplied container image.
+- [Download SBOM](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_download_sbom.md): Download SBOMs from the supplied container image.
+- [Download Signature](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_download_signature.md): Download signatures from the supplied container image.
+
+## Configuration
+
+- [Env](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_env.md): Displays information about cosign's runtime environment.
+- [Exit Codes](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_exit_codes.md): Lists all the exit codes that cosign might return.
+- [Initialize](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_initialize.md): Initialize cosign configuration.
+
+## Key Management
+
+- [Generate Key Pair](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_generate-key-pair.md): Generate a key-pair.
+- [Generate](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_generate.md): Generate various artifacts.
+- [Import Key Pair](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_import-key-pair.md): Import a key-pair.
+- [Public Key](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_public-key.md): Get the public key from the key-pair.
+
+## Registry Interaction
+
+- [Load](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_load.md): Load a signed image on disk to a registry.
+- [Login](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_login.md): Log in to a registry.
+- [Save](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_save.md): Save the container image and associated signatures to a directory.
+- [Upload](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_upload.md): Upload the signature, certificate, and public key to the transparency log.
+- [Upload Blob](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_upload_blob.md): Upload one or more blobs to the blob storage.
+- [Upload WASM](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_upload_wasm.md): Upload a wasm module to the registry.
+
+## Signing & Verification
+
+- [Sign Blob](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_sign-blob.md): Sign the supplied blob.
+- [Sign](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_sign.md): Sign the supplied container image.
+- [Verify Attestation](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_verify-attestation.md): Verify attestations on the supplied container image.
+- [Verify Blob Attestation](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_verify-blob-attestation.md): Verify an attestation on the supplied blob.
+- [Verify Blob](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_verify-blob.md): Verify a signature on the supplied blob.
+- [Verify](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_verify.md): Verify a signature on the supplied container image.
+- [Manifest](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_manifest.md): Provides utilities for interacting with a manifest.
+- [Manifest Verify](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_manifest_verify.md): Verify all signatures of images specified in the manifest.
+
+## Hardware Security
+
+- [PIV Tool](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_piv-tool.md): Smart card utility for Yubikey PIV.
+- [PIV Tool Attestation](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_piv-tool_attestation.md): Manage hardware attestations stored on hardware backed PIV attestations.
+- [PIV Tool Generate Key](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_piv-tool_generate-key.md): Generate a key on a hardware token.
+- [PIV Tool Reset](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_piv-tool_reset.md): Reset a hardware token.
+- [PIV Tool Set Management Key](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_piv-tool_set-management-key.md): Set the management key on a hardware token.
+- [PIV Tool Set PIN](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_piv-tool_set-pin.md): Set the PIN on a hardware token.
+- [PIV Tool Set PUK](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_piv-tool_set-puk.md): Set the PUK on a hardware token.
+- [PIV Tool Unblock](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_piv-tool_unblock.md): Unblock the PIN on a hardware token.
+
+## PKCS11 Support
+
+- [PKCS11 Tool](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_pkcs11-tool.md): PKCS11 utility.
+- [PKCS11 Tool List Keys URIs](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_pkcs11-tool_list-keys-uris.md): List all PKCS11 keys URIs.
+- [PKCS11 Tool List Tokens](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_pkcs11-tool_list-tokens.md): List all PKCS11 tokens.
+
+## Utilities
+
+- [Tree](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_tree.md): Display a tree of related images.
+- [Triangulate](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_triangulate.md): Outputs the located signature image reference.
+- [Trusted Root](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_trusted-root.md): Root trust commands.
+- [Trusted Root Create](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_trusted-root_create.md): Create a trusted root.
+- [Version](https://raw.githubusercontent.com/sigstore/cosign/refs/heads/main/doc/cosign_version.md): Display the version information.

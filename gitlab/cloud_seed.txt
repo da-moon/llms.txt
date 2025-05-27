@@ -1,0 +1,7 @@
+# GitLab Cloud Seed
+
+> Documentation for GitLab's cloud seed functionality and configuration
+
+## Core Documentation
+
+- [Cloud Seed Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/cloud_seed/_index.md): Main cloud seed documentation index

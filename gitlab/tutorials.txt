@@ -1,0 +1,112 @@
+# GitLab Tutorials
+
+> Step-by-step tutorials and hands-on guides for GitLab features and workflows
+
+## Tutorial Overview
+
+- [Tutorials Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/_index.md): Main tutorials documentation index
+- [More Tutorials](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/more_tutorials.md): Additional tutorial resources
+
+## Getting Started Tutorials
+
+- [GitLab Navigation](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/gitlab_navigation.md): Navigating the GitLab interface
+- [Left Sidebar Tutorial Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/left_sidebar/_index.md): Understanding the left sidebar
+- [Learn Git](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/learn_git.md): Git fundamentals tutorial
+- [Make First Git Commit Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/make_first_git_commit/_index.md): Creating your first Git commit
+
+## Development Tutorials
+
+- [Build Application](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/build_application.md): Building applications with GitLab
+- [Develop](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/develop.md): Development workflow tutorial
+- [Infrastructure](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/infrastructure.md): Infrastructure management tutorial
+
+## Project Management Tutorials
+
+- [Plan and Track](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/plan_and_track.md): Project planning and tracking tutorial
+
+### Agile and Scrum
+
+- [Agile Sprint Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/agile_sprint/_index.md): Agile sprint management tutorial
+- [Scrum Events Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/scrum_events/_index.md): Scrum events tutorial
+- [Standups Retrospectives Velocity](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/scrum_events/standups_retrospectives_velocity.md): Scrum ceremonies tutorial
+- [Kanban Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/kanban/_index.md): Kanban board tutorial
+
+### Issue Management
+
+- [Issue Triage Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/issue_triage/_index.md): Issue triage workflow tutorial
+- [Issue Triage Group Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/issue_triage_group/_index.md): Group-level issue triage
+- [Idea Management Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/idea_management/_index.md): Idea and innovation management
+
+### Boards and Workflows
+
+- [Boards for Standups Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/boards_for_standups/_index.md): Using boards for standups
+- [Boards for Teams Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/boards_for_teams/_index.md): Team collaboration with boards
+
+## GitLab Runner Tutorials
+
+- [Create and Register First Runner Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/create_register_first_runner/_index.md): Setting up your first GitLab Runner
+- [Automate Runner Creation Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/automate_runner_creation/_index.md): Automating runner creation
+- [Configure GitLab Runner to Use GKE Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/configure_gitlab_runner_to_use_gke/_index.md): GKE runner configuration
+
+## Security Tutorials
+
+- [Secure Application](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/secure_application.md): Application security tutorial
+- [Container Scanning Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/container_scanning/_index.md): Container security scanning
+- [Dependency Scanning](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/dependency_scanning.md): Dependency security scanning
+- [Fuzz Testing Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/fuzz_testing/_index.md): Fuzz testing tutorial
+- [Export SBOM](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/export_sbom.md): Software Bill of Materials export
+
+### Security Policies
+
+- [Scan Execution Policy Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/scan_execution_policy/_index.md): Security scan execution policies
+- [Scan Result Policy Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/scan_result_policy/_index.md): Security scan result policies
+- [Compliance Pipeline Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/compliance_pipeline/_index.md): Compliance pipeline setup
+- [Protected Workflow Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/protected_workflow/_index.md): Protected branch workflows
+
+## Cloud Integration Tutorials
+
+### Google Cloud
+
+- [Set Up GitLab Google Integration Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/set_up_gitlab_google_integration/_index.md): GitLab and Google Cloud integration
+- [Create and Deploy Web Service with Google Cloud Run Component Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/create_and_deploy_web_service_with_google_cloud_run_component/_index.md): Google Cloud Run deployment
+- [Create GitLab Pipeline Push to Google Artifact Registry Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/create_gitlab_pipeline_push_to_google_artifact_registry/_index.md): Google Artifact Registry integration
+
+## Installation and Setup Tutorials
+
+- [Install GitLab Single Node Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/install_gitlab_single_node/_index.md): Single-node GitLab installation
+- [Setup Steps Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/setup_steps/_index.md): Initial setup steps
+
+## User and Organization Management
+
+- [Manage User Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/manage_user/_index.md): User management tutorial
+- [Convert Personal Namespace to Group Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/convert_personal_namespace_to_group/_index.md): Converting personal namespace to group
+- [Move Personal Project to Group Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/move_personal_project_to_group/_index.md): Moving projects to groups
+
+## Git Operations Tutorials
+
+- [Update Commit Messages Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/update_commit_messages/_index.md): Updating commit messages
+- [Update Git Remote URL Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/update_git_remote_url/_index.md): Changing Git remote URLs
+
+## Code Review Tutorials
+
+- [Reviews Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/reviews/_index.md): Code review workflow
+- [Merge Requests Homepage](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/merge_requests/homepage.md): Merge request tutorial
+
+## Static Site Tutorials
+
+- [Hugo Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/hugo/_index.md): Hugo static site generator tutorial
+
+## Analytics and Observability
+
+### Product Analytics
+
+- [Product Analytics Onboarding Website Project Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/product_analytics_onboarding_website_project/_index.md): Product analytics setup
+- [Website Project with Analytics Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/website_project_with_analytics/_index.md): Website analytics integration
+
+### Observability Tutorials
+
+- [Observability Django Tutorial](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/observability/observability_django_tutorial.md): Django application observability
+- [Observability .NET Tutorial](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/observability/observability_dotnet_tutorial.md): .NET application observability
+- [Observability Java Tutorial](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/observability/observability_java_tutorial.md): Java application observability
+- [Observability Node.js Tutorial](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/observability/observability_nodejs_tutorial.md): Node.js application observability
+- [Observability Rails Tutorial](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/tutorials/observability/observability_rails_tutorial.md): Rails application observability

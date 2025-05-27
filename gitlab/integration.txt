@@ -1,0 +1,103 @@
+# GitLab Integrations
+
+> Comprehensive third-party integrations and external service connections for GitLab
+
+## Integration Overview
+
+- [Integrations Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/_index.md): Main integrations documentation index
+
+## Cloud Provider Integrations
+
+- [Azure Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/azure.md): Microsoft Azure integration setup
+- [Google Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/google.md): Google services integration
+- [Google Cloud IAM](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/google_cloud_iam.md): Google Cloud IAM integration
+- [Alicloud Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/alicloud.md): Alibaba Cloud integration
+
+## Version Control Integrations
+
+- [GitHub Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/github.md): GitHub integration and migration
+- [Bitbucket Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/bitbucket.md): Bitbucket integration setup
+- [GitLab Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/gitlab.md): GitLab-to-GitLab integration
+
+## Authentication Integrations
+
+- [Auth0 Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/auth0.md): Auth0 authentication integration
+- [OAuth2 Generic](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/oauth2_generic.md): Generic OAuth2 provider integration
+- [OAuth Provider](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/oauth_provider.md): GitLab as OAuth provider
+- [OpenID Connect Provider](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/openid_connect_provider.md): OpenID Connect integration
+- [OmniAuth](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/omniauth.md): OmniAuth configuration
+- [SAML Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/saml.md): SAML authentication integration
+- [Shibboleth Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/shibboleth.md): Shibboleth authentication
+- [Kerberos Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/kerberos.md): Kerberos authentication setup
+- [Kerberos Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/kerberos_troubleshooting.md): Kerberos troubleshooting guide
+
+## Project Management Integrations
+
+### Jira Integration
+
+- [Jira Integration Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/jira/_index.md): Jira integration overview
+- [Jira Configuration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/jira/configure.md): Jira integration configuration
+- [Jira Connect App](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/jira/connect-app.md): Jira Connect app setup
+- [Jira Development Panel](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/jira/development_panel.md): Jira development panel integration
+- [Jira Issues](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/jira/issues.md): Jira issue integration
+- [Jira Server Configuration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/jira/jira_server_configuration.md): Jira Server configuration
+- [Jira Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/jira/troubleshooting.md): Jira integration troubleshooting
+
+#### Jira DVCS
+
+- [Jira DVCS Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/jira/dvcs/_index.md): Jira DVCS connector overview
+- [Jira DVCS Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/jira/dvcs/troubleshooting.md): DVCS connector troubleshooting
+
+### Other Project Management
+
+- [Trello Power-Up](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/trello_power_up.md): Trello integration power-up
+- [External Issue Tracker](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/external-issue-tracker.md): External issue tracker integration
+
+## Development Environment Integrations
+
+- [Gitpod Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/gitpod.md): Gitpod cloud development environment
+- [Sourcegraph Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/sourcegraph.md): Sourcegraph code search integration
+
+## CI/CD Integrations
+
+- [Jenkins Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/jenkins.md): Jenkins CI/CD integration
+
+## Communication Integrations
+
+- [Mattermost Integration Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/mattermost/_index.md): Mattermost chat integration
+- [Gmail Action Buttons](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/gmail_action_buttons_for_gitlab.md): Gmail action buttons for GitLab
+
+## Search Integrations
+
+### Elasticsearch
+
+- [Elasticsearch Advanced Search](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/advanced_search/elasticsearch.md): Elasticsearch advanced search setup
+
+#### Elasticsearch Troubleshooting
+
+- [Elasticsearch Troubleshooting Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/elasticsearch/troubleshooting/_index.md): Elasticsearch troubleshooting overview
+- [Elasticsearch Access Issues](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/elasticsearch/troubleshooting/access.md): Elasticsearch access troubleshooting
+- [Elasticsearch Indexing Issues](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/elasticsearch/troubleshooting/indexing.md): Elasticsearch indexing troubleshooting
+- [Elasticsearch Migrations](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/elasticsearch/troubleshooting/migrations.md): Elasticsearch migration troubleshooting
+
+### Other Search
+
+- [Zoekt Exact Code Search](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/exact_code_search/zoekt.md): Zoekt exact code search integration
+
+## Analytics and Monitoring
+
+- [Datadog Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/datadog.md): Datadog monitoring integration
+- [ClickHouse Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/clickhouse.md): ClickHouse analytics integration
+- [Snowflake Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/snowflake.md): Snowflake data warehouse integration
+
+## Security Integrations
+
+- [Akismet Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/akismet.md): Akismet spam protection
+- [Arkose Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/arkose.md): Arkose fraud prevention
+- [reCAPTCHA Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/recaptcha.md): reCAPTCHA bot protection
+- [Vault Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/vault.md): HashiCorp Vault secrets management
+- [Diffblue Cover](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/diffblue_cover.md): Diffblue Cover automated testing
+
+## Business Integrations
+
+- [Salesforce Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/integration/salesforce.md): Salesforce CRM integration

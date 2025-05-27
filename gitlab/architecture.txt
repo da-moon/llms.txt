@@ -1,0 +1,268 @@
+# GitLab Architecture Documentation
+
+> Comprehensive documentation covering GitLab's system architecture, architectural blueprints, design decisions, and infrastructure patterns for building a scalable DevOps platform.
+
+## Core Architecture Documentation
+
+- [Architecture Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/_index.md): Main architecture documentation index
+
+## AI & Machine Learning Blueprints
+
+- [ActivityPub Blueprint](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/activity_pub/_index.md): ActivityPub integration architecture
+- [AI Context Management](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/ai_context_management/_index.md): AI context management system
+- [AI Context Management - Client Policy](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/ai_context_management/decisions/001_policy_on_the_client.md): Client-side policy decisions
+- [AI Gateway](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/ai_gateway/_index.md): AI gateway architecture
+- [AI Gateway - Direct Connections](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/ai_gateway/decisions/001_direct_connections.md): Direct connection strategy
+- [AI Gateway - Proxy](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/ai_gateway/decisions/002_proxy.md): Proxy implementation approach
+- [GitLab Duo RAG](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_duo_rag/_index.md): Duo retrieval-augmented generation
+- [GitLab Duo RAG - Elasticsearch](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_duo_rag/elasticsearch.md): Elasticsearch integration
+- [GitLab Duo RAG - PostgreSQL](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_duo_rag/postgresql.md): PostgreSQL integration
+- [GitLab Duo RAG - Vertex AI Search](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_duo_rag/vertex_ai_search.md): Vertex AI search integration
+- [GitLab RAG](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_rag/_index.md): Retrieval-augmented generation system
+- [GitLab RAG - Elasticsearch](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_rag/elasticsearch.md): Elasticsearch implementation
+- [GitLab RAG - PostgreSQL](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_rag/postgresql.md): PostgreSQL implementation
+- [GitLab RAG - Vertex AI Search](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_rag/vertex_ai_search.md): Vertex AI search implementation
+- [GitLab X-Ray RAG](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_xray_rag/_index.md): X-Ray RAG system
+- [Custom Models](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/custom_models/_index.md): Custom AI model integration
+- [ML Experiments](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_ml_experiments/_index.md): Machine learning experiments
+- [Model Experiments and Registry](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/model_experiments_and_registry/_index.md): Model registry architecture
+- [Duo Workflow](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/duo_workflow/_index.md): GitLab Duo workflow system
+
+## Cells Architecture
+
+- [Cells Blueprint](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/_index.md): Cell-based scaling architecture
+- [Cells - Routing Technology](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/decisions/001_routing_technology.md): Routing technology decisions
+- [Cells - GCP Project Boundary](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/decisions/002_gcp_project_boundary.md): GCP project boundaries
+- [Cells - GKE Clusters Per Cell](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/decisions/003_num_gke_clusters_per_cell.md): GKE cluster sizing
+- [Cells - VPC Subnet Design](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/decisions/004_vpc_subnet_design.md): VPC subnet architecture
+- [Cells - Flexible Reference Architectures](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/decisions/005_flexible_reference_architectures.md): Reference architectures
+- [Cells - Disaster Recovery Geo](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/decisions/006_disaster_recovery_geo.md): Disaster recovery with Geo
+- [Cells - Internal Customers](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/decisions/007_internal_customers.md): Internal customer support
+- [Cells - Database Sequences](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/decisions/008_database_sequences.md): Database sequence management
+- [Cells - Initial Sizing](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/decisions/009_cell_initial_sizing.md): Cell sizing strategies
+- [Cells - HTTP Router Rules and Cache](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/decisions/010_http_router_rules_and_cache.md): HTTP routing and caching
+- [Cells - Diagrams](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/diagrams/_index.md): Architecture diagrams
+- [Cells - Feature Flags](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/feature_flags.md): Feature flag management
+- [Cells - Goals](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/goals.md): Project goals and objectives
+- [Cells - HTTP Routing Service](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/http_routing_service.md): HTTP routing implementation
+- [Cells - Routing Service](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/routing-service.md): General routing service
+- [Cells - SSH Routing Service](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/ssh_routing_service.md): SSH routing implementation
+- [Cells - Topology Service](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/topology_service.md): Topology management
+- [Cells - Unique Sequences](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/unique_sequences.md): Unique sequence generation
+
+## Cells Impacted Features
+
+- [Cells - Admin Area](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/admin-area.md): Admin area considerations
+- [Cells - Agent for Kubernetes](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/agent-for-kubernetes.md): Kubernetes agent impact
+- [Cells - Backups](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/backups.md): Backup system impact
+- [Cells - CI/CD Catalog](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/ci-cd-catalog.md): CI/CD catalog considerations
+- [Cells - CI Runners](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/ci-runners.md): CI runner management
+- [Cells - Container Registry](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/container-registry.md): Container registry impact
+- [Cells - Contributions & Forks](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/contributions-forks.md): Fork and contribution flow
+- [Cells - Data Migration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/data-migration.md): Data migration strategies
+- [Cells - Data Pipeline Ingestion](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/data-pipeline-ingestion.md): Data pipeline considerations
+- [Cells - Database Sequences](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/database-sequences.md): Database sequence impact
+- [Cells - Explore](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/explore.md): Explore functionality
+- [Cells - Git Access](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/git-access.md): Git access patterns
+- [Cells - GitLab Pages](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/gitlab-pages.md): Pages service impact
+- [Cells - Global Search](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/global-search.md): Search functionality
+- [Cells - GraphQL](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/graphql.md): GraphQL API considerations
+- [Cells - Group Transfer](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/group-transfer.md): Group transfer process
+- [Cells - Issues](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/issues.md): Issue management
+- [Cells - Merge Requests](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/merge-requests.md): Merge request handling
+- [Cells - Organizations](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/organizations.md): Organization structure
+- [Cells - Personal Access Tokens](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/personal-access-tokens.md): Token management
+- [Cells - Personal Namespaces](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/personal-namespaces.md): Personal namespace handling
+- [Cells - Project Transfer](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/project-transfer.md): Project transfer process
+- [Cells - Router Endpoints Classification](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/router-endpoints-classification.md): Endpoint classification
+- [Cells - Schema Changes](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/schema-changes.md): Database schema considerations
+- [Cells - Secrets](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/secrets.md): Secret management
+- [Cells - Snippets](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/snippets.md): Snippet functionality
+- [Cells - Template](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/template.md): Template system
+- [Cells - Uploads](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/uploads.md): File upload handling
+- [Cells - User Profile](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/user-profile.md): User profile management
+- [Cells - Your Work](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/impacted_features/your-work.md): Work dashboard impact
+
+## Cells Infrastructure
+
+- [Cells Infrastructure](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/infrastructure/_index.md): Infrastructure overview
+- [Cells - Architecture Tooling](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/infrastructure/cell_arch_tooling.md): Architecture tooling
+- [Cells - Deployments](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/infrastructure/deployments.md): Deployment strategies
+- [Cells - Dedicated Differences](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/infrastructure/diff-between-dedicated.md): Dedicated vs cells comparison
+- [Cells - Disaster Recovery](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/infrastructure/disaster_recovery.md): Disaster recovery planning
+- [Cells - Observability](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/infrastructure/observability.md): Observability implementation
+- [Cells - PostgreSQL](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/infrastructure/postgresql.md): PostgreSQL considerations
+- [Cells - Runner](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/infrastructure/runner.md): Runner infrastructure
+
+## Cells Iterations & Rejected Proposals
+
+- [Cells 1.0](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/iterations/cells-1.0.md): Version 1.0 implementation
+- [Cells 1.5](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/iterations/cells-1.5.md): Version 1.5 implementation
+- [Cells 2.0](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/iterations/cells-2.0.md): Version 2.0 implementation
+- [Rejected - Deployment Architecture](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/rejected/deployment-architecture.md): Rejected deployment approach
+- [Rejected - Database Sequences](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/rejected/impacted_features/database_sequences.md): Rejected sequence approach
+- [Rejected - Stateless Router with Buffering](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/rejected/proposal-stateless-router-with-buffering-requests.md): Rejected buffering proposal
+- [Rejected - Stateless Router with Route Learning](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cells/rejected/proposal-stateless-router-with-routes-learning.md): Rejected learning proposal
+
+## CI/CD Architecture
+
+- [Autoflow](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/autoflow/_index.md): Autoflow system architecture
+- [Autoflow - CI Relation](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/autoflow/relation_to_ci.md): CI system integration
+- [CI Build Speed](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/ci_build_speed/_index.md): Build speed optimization
+- [CI Build Speed - Benchmark](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/ci_build_speed/benchmark.md): Performance benchmarking
+- [CI Builds Runner Fleet Metrics](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/ci_builds_runner_fleet_metrics/_index.md): Runner fleet metrics
+- [CI Insights](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/ci_builds_runner_fleet_metrics/ci_insights.md): CI analytics and insights
+- [CI Data Decay](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/ci_data_decay/_index.md): Data lifecycle management
+- [Pipeline Archival](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/ci_data_decay/pipeline_archival.md): Pipeline archival strategies
+- [Pipeline Partitioning](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/ci_data_decay/pipeline_partitioning.md): Pipeline data partitioning
+- [Reduce Data Growth Rate](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/ci_data_decay/reduce_data_growth_rate.md): Data growth optimization
+- [Retention Policies](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/ci_data_decay/retention_policies.md): Data retention strategies
+- [CI GCP Secrets Manager](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/ci_gcp_secrets_manager/_index.md): GCP secrets integration
+- [CI Pipeline Components](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/ci_pipeline_components/_index.md): Pipeline component system
+- [CI Pipeline Processing](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/ci_pipeline_processing/_index.md): Pipeline processing architecture
+- [CI Scale](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/ci_scale/_index.md): CI scaling strategies
+- [GitLab CI Events](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_ci_events/_index.md): CI event system
+- [GitLab CI Events - Hierarchical Events](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_ci_events/decisions/001_hierarchical_events.md): Event hierarchy design
+- [CI Events - Proposal 1](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_ci_events/proposal-1-using-the-gitlab-ci-file.md): CI file approach
+- [CI Events - Proposal 2](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_ci_events/proposal-2-using-the-rules-keyword.md): Rules keyword approach
+- [CI Events - Proposal 3](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_ci_events/proposal-3-using-the-gitlab-ci-events-folder.md): Events folder approach
+- [CI Events - Proposal 4](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_ci_events/proposal-4-creating-events-via-ci-files.md): CI file events approach
+- [CI Events - Proposal 5](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_ci_events/proposal-5-combined-proposal.md): Combined approach
+- [GitLab Steps](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_steps/_index.md): GitLab Steps system
+- [GitLab Steps - Initial Support](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_steps/decisions/001_initial_support.md): Initial implementation
+- [GitLab Steps - CI Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_steps/gitlab-ci.md): CI system integration
+- [GitLab Steps - Implementation](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_steps/implementation.md): Implementation details
+- [GitLab Steps - Runner Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_steps/runner-integration.md): Runner integration
+- [GitLab Steps - Service Deployment](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_steps/service-deployment.md): Service deployment
+- [GitLab Steps - Step Definition](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_steps/step-definition.md): Step definition format
+- [GitLab Steps - Syntactic Sugar](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_steps/steps-syntactic-sugar.md): Syntax enhancements
+- [Pipeline Execution Policy](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/pipeline_execution_policy/_index.md): Execution policy framework
+- [Pipeline Mini Graph](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/pipeline_mini_graph/_index.md): Mini graph visualization
+
+## Database & Storage Architecture
+
+- [Backup and Restore](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/backup_and_restore/_index.md): Backup and restore system
+- [Backup and Restore - Glossary](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/backup_and_restore/glossary.md): Terminology and concepts
+- [Database Testing](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/database_testing/_index.md): Database testing strategies
+- [Database Size Limits](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/database_scaling/size-limits.md): Database scaling limits
+- [Automated Query Analysis](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/database/automated_query_analysis/_index.md): Query performance analysis
+- [Notes Table Partitioning](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/notes_table_partitioning.md): Table partitioning strategy
+- [Object Storage](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/object_storage/_index.md): Object storage architecture
+- [Transfer Data](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/transfer_data/_index.md): Data transfer mechanisms
+- [Transfer Data - Repository](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/transfer_data/repository.md): Repository data transfer
+
+## Git & Repository Management
+
+- [Bundle URI](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/bundle_uri/_index.md): Git bundle URI support
+- [Git Data Offloading](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/git_data_offloading/_index.md): Git data management
+- [Gitaly Adaptive Concurrency Limit](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitaly_adaptive_concurrency_limit/_index.md): Concurrency management
+- [Gitaly Upload Pack HTTP2](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitaly_handle_upload_pack_in_http2_server/_index.md): HTTP2 server implementation
+- [Gitaly Plugins](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitaly_plugins/_index.md): Plugin architecture
+- [Gitaly Transaction Management](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitaly_transaction_management/_index.md): Transaction handling
+- [Object Pools](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/object_pools/_index.md): Git object pooling
+- [Repository Backups](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/repository_backups/_index.md): Repository backup strategies
+
+## Security Architecture
+
+- [Secret Detection](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/secret_detection/_index.md): Secret detection system
+- [Secret Detection - Ruby Push Check](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/secret_detection/decisions/001_use_ruby_push_check_approach_within_monolith.md): Ruby implementation approach
+- [Secret Detection - Gem Repository](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/secret_detection/decisions/002_store_the_secret_detection_gem_in_the_same_repository.md): Gem storage strategy
+- [Secret Detection - Subprocess Scan](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/secret_detection/decisions/003_run_scan_within_subprocess.md): Subprocess execution
+- [Secret Detection - Scanner Service](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/secret_detection/decisions/004_secret_detection_scanner_service.md): Scanner service design
+- [Secret Detection - Runway Deployment](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/secret_detection/decisions/005_use_runway_for_deployment.md): Deployment strategy
+- [Secret Manager](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/secret_manager/_index.md): Secret management system
+- [Secret Manager - Envelope Encryption](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/secret_manager/decisions/001_envelop_encryption.md): Encryption strategy
+- [Secret Manager - GCP KMS](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/secret_manager/decisions/002_gcp_kms.md): GCP KMS integration
+- [Secret Manager - Go Service](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/secret_manager/decisions/003_go_service.md): Go service implementation
+- [Secret Manager - OpenBao](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/secret_manager/decisions/004_openbao.md): OpenBao integration
+- [Secret Manager - Stateless KMS](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/secret_manager/decisions/004_staleless_kms.md): Stateless KMS approach
+- [Secret Manager - Key Structure](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/secret_manager/decisions/005_secrets_key_structure.md): Key structure design
+- [Secret Manager - AppRole Authentication](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/secret_manager/decisions/006_approle_authentication_rails.md): Rails authentication
+- [Secret Manager - CI Job Secrets](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/secret_manager/studies/ci_job_secrets.md): CI integration study
+- [Security Policies Database](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/security_policies_database_read_model/_index.md): Security policies data model
+- [SSH Certificates](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/ssh_certificates/_index.md): SSH certificate management
+- [EPSS](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/epss/_index.md): Exploit Prediction Scoring System
+- [EPSS - New Bucket](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/epss/decisions/002_use_new_bucket.md): Bucket strategy decision
+
+## Platform & Infrastructure
+
+- [Cloud Connector](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cloud_connector/_index.md): Cloud connectivity architecture
+- [Cloud Connector - Load Balancer Entry](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cloud_connector/decisions/001_lb_entry_point.md): Load balancer strategy
+- [Cloud Native Build Logs](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cloud_native_build_logs/_index.md): Cloud-native logging
+- [Cloud Native GitLab Pages](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cloud_native_gitlab_pages/_index.md): Cloud-native pages
+- [Disaster Recovery](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/disaster_recovery/_index.md): Disaster recovery planning
+- [Disaster Recovery - Regional](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/disaster_recovery/regional.md): Regional DR strategies
+- [Disaster Recovery - Zonal](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/disaster_recovery/zonal.md): Zonal DR strategies
+- [Rate Limiting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/rate_limiting/_index.md): Rate limiting implementation
+- [Runway](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/runway/_index.md): Runway deployment system
+
+## Runner & Container Architecture
+
+- [Runner Scaling](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/runner_scaling/_index.md): Runner scaling strategies
+- [Runner Tokens](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/runner_tokens/_index.md): Runner token management
+- [Runner Admission Controller](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/runner_admission_controller/_index.md): Admission control system
+- [Container Registry Metadata Database](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/container_registry_metadata_database/_index.md): Registry metadata
+- [Container Registry Self-Managed Rollout](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/container_registry_metadata_database_self_managed_rollout/_index.md): Self-managed deployment
+
+## Observability & Analytics
+
+- [ClickHouse Ingestion Pipeline](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/clickhouse_ingestion_pipeline/_index.md): Data ingestion pipeline
+- [ClickHouse Read Abstraction Layer](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/clickhouse_read_abstraction_layer/_index.md): Read abstraction
+- [ClickHouse Usage](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/clickhouse_usage/_index.md): ClickHouse integration
+- [ClickHouse Self-Managed Costs](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/clickhouse_usage/self_managed_costs_and_requirements/_index.md): Cost analysis
+- [Observability for Self-Managed](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/observability_for_self_managed/_index.md): Self-managed observability
+- [Observability Logging](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/observability_logging/_index.md): Logging architecture
+- [Observability Metrics](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/observability_metrics/_index.md): Metrics collection
+- [Observability Tracing](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/observability_tracing/_index.md): Distributed tracing
+
+## Application Architecture
+
+- [Modular Monolith](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/modular_monolith/_index.md): Modular monolith architecture
+- [Modular Monolith - Bounded Contexts](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/modular_monolith/bounded_contexts.md): Domain boundaries
+- [Modular Monolith - Application Domain](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/modular_monolith/decisions/001_modular_application_domain.md): Domain decisions
+- [Modular Monolith - Bounded Contexts Definition](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/modular_monolith/decisions/002_bounded_contexts_definition.md): Context definitions
+- [Modular Monolith - Stewardship](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/modular_monolith/decisions/003_stewardship.md): Stewardship model
+- [Modular Monolith - Hexagonal Architecture](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/modular_monolith/hexagonal_monolith/_index.md): Hexagonal patterns
+- [Modular Monolith - Package Extraction](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/modular_monolith/packages_extraction.md): Package extraction
+- [Modular Monolith - Proof of Concepts](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/modular_monolith/proof_of_concepts.md): Implementation proofs
+- [Modular Monolith - References](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/modular_monolith/references.md): Reference materials
+- [Composable Codebase with Rails Engines](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/composable_codebase_using_rails_engines/_index.md): Rails engine architecture
+- [GitLab Services](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_services/_index.md): Service architecture
+- [Work Items](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/work_items/_index.md): Work item system architecture
+
+## Feature Architecture
+
+- [Capacity Planning](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/capacity_planning/_index.md): Capacity planning system
+- [CDOT Orders](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cdot_orders/_index.md): Order management system
+- [CDOT Plan Management](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/cdot_plan_managment/_index.md): Plan management
+- [Code Search with Zoekt](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/code_search_with_zoekt/_index.md): Search implementation
+- [Consolidating Groups and Projects](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/consolidating_groups_and_projects/_index.md): Namespace consolidation
+- [Email Ingestion](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/email_ingestion/_index.md): Email processing system
+- [Feature Flags Development](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/feature_flags_development/_index.md): Feature flag development
+- [Feature Flags Usage in Dev and Ops](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/feature_flags_usage_in_dev_and_ops/_index.md): Feature flag operations
+- [GitLab Agent Deployments](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_agent_deployments/_index.md): Agent deployment patterns
+- [GitLab Events Platform](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_events_platform/_index.md): Event platform architecture
+- [GitLab Housekeeper](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_housekeeper/_index.md): Automated maintenance
+- [GitLab to Kubernetes Communication](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/gitlab_to_kubernetes_communication/_index.md): Kubernetes integration
+- [Image Resizing](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/image_resizing/_index.md): Image processing system
+- [Organization](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/organization/_index.md): Organization structure
+- [Organization - Isolation](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/organization/isolation.md): Isolation strategies
+- [Organization - FAQ](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/organization/organization-faq.md): Frequently asked questions
+- [Organization - Users](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/organization/organization-users.md): User management
+- [Permissions](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/permissions/_index.md): Permission system architecture
+- [Rapid Diffs](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/rapid_diffs/_index.md): Fast diff implementation
+- [Rapid Diffs - Features](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/rapid_diffs/features.md): Feature specifications
+- [Remote Development](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/remote_development/_index.md): Remote development environment
+- [Remote Development - Agent Authorization](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/remote_development/decisions/100_new_agent_authorization_strategy.md): Authorization strategy
+- [TailwindCSS](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/tailwindcss/_index.md): CSS framework integration
+
+## Cloud Integrations
+
+- [Google Artifact Registry Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/google_artifact_registry_integration/_index.md): Google artifact registry
+- [Google Artifact Registry - Backend](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/google_artifact_registry_integration/backend.md): Backend implementation
+- [Google Artifact Registry - UI/UX](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/google_artifact_registry_integration/ui_ux.md): User interface design
+- [Google Cloud Platform Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/google_cloud_platform_integration/_index.md): GCP integration
+
+## API Architecture
+
+- [GraphQL API](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/architecture/blueprints/graphql_api/_index.md): GraphQL implementation architecture

@@ -1,0 +1,309 @@
+# GitLab API Documentation
+
+> Comprehensive API documentation for GitLab including REST and GraphQL endpoints, authentication, package management, and administrative functions
+
+## Core API Documentation
+
+- [API Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/_index.md): Main API documentation index
+- [API Resources](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/api_resources.md): Available API resources overview
+- [Getting Started Extending](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/get_started/get_started_extending.md): Guide for extending GitLab API
+
+## REST API
+
+- [REST API Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/rest/_index.md): REST API documentation index
+- [Authentication](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/rest/authentication.md): API authentication methods
+- [Deprecations](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/rest/deprecations.md): Deprecated API features
+- [Third Party Clients](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/rest/third_party_clients.md): Third-party API clients
+- [Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/rest/troubleshooting.md): API troubleshooting guide
+
+## GraphQL API
+
+- [GraphQL Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/graphql/_index.md): GraphQL API documentation index
+- [GraphQL Reference](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/graphql/reference/_index.md): GraphQL schema reference
+- [Getting Started](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/graphql/getting_started.md): GraphQL getting started guide
+- [Examples](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/graphql/examples.md): GraphQL query examples
+- [Users Example](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/graphql/users_example.md): User queries example
+- [Sample Issue Boards](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/graphql/sample_issue_boards.md): Issue boards GraphQL examples
+- [Removed Items](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/graphql/removed_items.md): Deprecated GraphQL items
+
+## Authentication & Access Control
+
+- [OAuth2](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/oauth2.md): OAuth2 authentication
+- [Personal Access Tokens](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/personal_access_tokens.md): Personal access token management
+- [Project Access Tokens](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/project_access_tokens.md): Project-level access tokens
+- [Group Access Tokens](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_access_tokens.md): Group-level access tokens
+- [Deploy Tokens](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/deploy_tokens.md): Deploy token management
+- [User Tokens](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/user_tokens.md): User token management
+- [Admin Token](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/admin/token.md): Admin token API
+- [SAML](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/saml.md): SAML authentication API
+- [SCIM](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/scim.md): SCIM user provisioning
+
+## Project Management
+
+- [Projects](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/projects.md): Project management API
+- [Project Forks](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/project_forks.md): Project fork management
+- [Project Aliases](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/project_aliases.md): Project alias management
+- [Project Statistics](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/project_statistics.md): Project statistics API
+- [Project Templates](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/project_templates.md): Project template management
+- [Project Starring](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/project_starring.md): Project starring functionality
+- [Project Import Export](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/project_import_export.md): Project import/export
+- [Project Relations Export](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/project_relations_export.md): Export project relations
+
+## Group Management
+
+- [Groups](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/groups.md): Group management API
+- [Group Import Export](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_import_export.md): Group import/export
+- [Group Relations Export](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_relations_export.md): Export group relations
+- [Group Enterprise Users](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_enterprise_users.md): Enterprise user management
+- [Group Service Accounts](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_service_accounts.md): Group service accounts
+- [Group Placeholder Reassignments](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_placeholder_reassignments.md): Placeholder user reassignment
+
+## User Management
+
+- [Users](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/users.md): User management API
+- [User Email Addresses](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/user_email_addresses.md): User email management
+- [User Keys](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/user_keys.md): User SSH key management
+- [User Moderation](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/user_moderation.md): User moderation features
+- [User Service Accounts](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/user_service_accounts.md): User service accounts
+- [User Follow Unfollow](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/user_follow_unfollow.md): User following functionality
+
+## Repository & Code Management
+
+- [Repositories](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/repositories.md): Repository management API
+- [Repository Files](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/repository_files.md): File management in repositories
+- [Repository Submodules](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/repository_submodules.md): Git submodule management
+- [Branches](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/branches.md): Branch management
+- [Commits](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/commits.md): Commit information API
+- [Web Commits](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/web_commits.md): Web-based commit creation
+- [Tags](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/tags.md): Tag management
+- [Protected Branches](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/protected_branches.md): Protected branch settings
+- [Protected Tags](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/protected_tags.md): Protected tag settings
+- [Protected Environments](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/protected_environments.md): Protected environment settings
+
+## Issues & Merge Requests
+
+- [Issues](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/issues.md): Issue management API
+- [Issue Links](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/issue_links.md): Issue linking functionality
+- [Issues Statistics](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/issues_statistics.md): Issue statistics
+- [Merge Requests](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/merge_requests.md): Merge request management
+- [Merge Request Approvals](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/merge_request_approvals.md): MR approval system
+- [Merge Request Approval Settings](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/merge_request_approval_settings.md): MR approval configuration
+- [Merge Request Context Commits](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/merge_request_context_commits.md): Context commits for MRs
+- [Merge Trains](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/merge_trains.md): Merge train functionality
+
+## CI/CD & Pipelines
+
+- [Pipelines](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/pipelines.md): Pipeline management API
+- [Pipeline Schedules](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/pipeline_schedules.md): Scheduled pipeline management
+- [Pipeline Triggers](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/pipeline_triggers.md): Pipeline trigger management
+- [Jobs](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/jobs.md): Job management API
+- [Job Artifacts](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/job_artifacts.md): Artifact management
+- [Runners](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/runners.md): Runner management
+- [Project Level Variables](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/project_level_variables.md): Project CI variables
+- [Group Level Variables](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_level_variables.md): Group CI variables
+- [Instance Level CI Variables](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/instance_level_ci_variables.md): Instance CI variables
+
+## Security & Compliance
+
+- [Vulnerabilities](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/vulnerabilities.md): Vulnerability management
+- [Vulnerability Findings](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/vulnerability_findings.md): Security finding details
+- [Vulnerability Exports](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/vulnerability_exports.md): Export vulnerability data
+- [Vulnerability Archive Exports](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/vulnerability_archive_exports.md): Archive vulnerability exports
+- [Project Vulnerabilities](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/project_vulnerabilities.md): Project-level vulnerabilities
+- [Dependencies](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/dependencies.md): Dependency scanning
+- [Dependency List Export](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/dependency_list_export.md): Export dependency lists
+- [Audit Events](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/audit_events.md): Audit event tracking
+- [Project Security Settings](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/project_security_settings.md): Project security configuration
+- [Group Security Settings](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_security_settings.md): Group security configuration
+
+## Package Management
+
+- [Packages](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/packages.md): Package registry API
+- [Composer](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/packages/composer.md): Composer package management
+- [Conan](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/packages/conan.md): Conan package management
+- [Conan V1](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/packages/conan_v1.md): Conan V1 API
+- [Conan V2](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/packages/conan_v2.md): Conan V2 API
+- [Debian](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/packages/debian.md): Debian package management
+- [Debian Group Distributions](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/packages/debian_group_distributions.md): Group Debian distributions
+- [Debian Project Distributions](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/packages/debian_project_distributions.md): Project Debian distributions
+- [Go Proxy](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/packages/go_proxy.md): Go module proxy
+- [Helm](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/packages/helm.md): Helm chart management
+- [Maven](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/packages/maven.md): Maven package management
+- [NPM](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/packages/npm.md): NPM package management
+- [NuGet](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/packages/nuget.md): NuGet package management
+- [PyPI](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/packages/pypi.md): Python package management
+- [RubyGems](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/packages/rubygems.md): Ruby gem management
+- [Terraform Modules](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/packages/terraform-modules.md): Terraform module registry
+- [Container Registry](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/container_registry.md): Container image registry
+- [Dependency Proxy](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/dependency_proxy.md): Dependency proxy service
+- [Maven Virtual Registries](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/maven_virtual_registries.md): Virtual Maven registries
+
+## Project Features
+
+- [Boards](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/boards.md): Issue board management
+- [Group Boards](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_boards.md): Group-level issue boards
+- [Milestones](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/milestones.md): Milestone management
+- [Group Milestones](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_milestones.md): Group milestone management
+- [Labels](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/labels.md): Label management
+- [Group Labels](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_labels.md): Group label management
+- [Wikis](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/wikis.md): Wiki management
+- [Group Wikis](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_wikis.md): Group wiki management
+- [Snippets](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/snippets.md): Code snippet management
+- [Project Snippets](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/project_snippets.md): Project-level snippets
+
+## Enterprise Features
+
+- [Epics](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/epics.md): Epic management
+- [Epic Issues](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/epic_issues.md): Epic-issue relationships
+- [Epic Links](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/epic_links.md): Epic linking
+- [Linked Epics](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/linked_epics.md): Epic relationships
+- [Group Epic Boards](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_epic_boards.md): Epic board management
+- [Iterations](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/iterations.md): Iteration management
+- [Group Iterations](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_iterations.md): Group iteration management
+
+## Integrations & Webhooks
+
+- [Integrations](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/integrations.md): Third-party integrations
+- [Project Integrations](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/project_integrations.md): Project-level integrations
+- [Group Integrations](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_integrations.md): Group-level integrations
+- [Project Webhooks](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/project_webhooks.md): Project webhook management
+- [Group Webhooks](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_webhooks.md): Group webhook management
+- [System Hooks](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/system_hooks.md): System-wide hooks
+
+## Administration
+
+- [Admin Sidekiq Queues](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/admin_sidekiq_queues.md): Sidekiq queue management
+- [Settings](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/settings.md): Instance settings API
+- [Statistics](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/statistics.md): Instance statistics
+- [Sidekiq Metrics](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/sidekiq_metrics.md): Sidekiq performance metrics
+- [Usage Data](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/usage_data.md): Usage analytics
+- [Plan Limits](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/plan_limits.md): Plan limitation settings
+- [License](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/license.md): License information
+- [Version](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/version.md): GitLab version info
+- [Metadata](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/metadata.md): Instance metadata
+
+## Infrastructure & Operations
+
+- [Instance Clusters](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/instance_clusters.md): Instance-level Kubernetes clusters
+- [Project Clusters](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/project_clusters.md): Project-level Kubernetes clusters
+- [Group Clusters](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_clusters.md): Group-level Kubernetes clusters
+- [Cluster Agents](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/cluster_agents.md): GitLab Agent for Kubernetes
+- [Cluster Discovery](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/cluster_discovery.md): Cluster discovery features
+- [Environments](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/environments.md): Environment management
+- [Deployments](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/deployments.md): Deployment tracking
+- [Deploy Keys](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/deploy_keys.md): Deploy key management
+- [Remote Mirrors](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/remote_mirrors.md): Repository mirroring
+- [Project Pull Mirroring](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/project_pull_mirroring.md): Pull mirror configuration
+
+## Analytics & Monitoring
+
+- [Group Activity Analytics](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_activity_analytics.md): Group activity metrics
+- [Product Analytics](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/product_analytics.md): Product usage analytics
+- [DORA Metrics](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/dora/metrics.md): DevOps Research metrics
+- [Error Tracking](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/error_tracking.md): Error monitoring
+- [Alert Management Alerts](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/alert_management_alerts.md): Alert management system
+
+## Templates & File Management
+
+- [Dockerfiles](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/templates/dockerfiles.md): Dockerfile templates
+- [Gitignores](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/templates/gitignores.md): Gitignore templates
+- [GitLab CI YMLs](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/templates/gitlab_ci_ymls.md): CI configuration templates
+- [Licenses](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/templates/licenses.md): License templates
+- [Secure Files](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/secure_files.md): Secure file management
+- [Project Markdown Uploads](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/project_markdown_uploads.md): Markdown file uploads
+- [Group Markdown Uploads](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_markdown_uploads.md): Group markdown uploads
+
+## Communication & Collaboration
+
+- [Notes](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/notes.md): Comment management
+- [Draft Notes](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/draft_notes.md): Draft comment management
+- [Discussions](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/discussions.md): Discussion thread management
+- [Emoji Reactions](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/emoji_reactions.md): Emoji reaction system
+- [Suggestions](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/suggestions.md): Code suggestion system
+- [Todos](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/todos.md): Todo item management
+- [Notification Settings](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/notification_settings.md): Notification preferences
+- [Broadcast Messages](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/broadcast_messages.md): System-wide messages
+
+## Membership & Access
+
+- [Members](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/members.md): Membership management
+- [Member Roles](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/member_roles.md): Custom member roles
+- [Invitations](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/invitations.md): Invitation management
+- [Access Requests](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/access_requests.md): Access request handling
+- [Group LDAP Links](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_ldap_links.md): LDAP group synchronization
+
+## Additional Features
+
+- [Avatar](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/avatar.md): Avatar management
+- [Applications](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/applications.md): OAuth application management
+- [Appearance](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/appearance.md): Instance appearance customization
+- [Custom Attributes](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/custom_attributes.md): Custom attribute system
+- [Events](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/events.md): Activity event tracking
+- [Features](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/features.md): Feature flag management
+- [Feature Flags](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/feature_flags.md): Application feature flags
+- [Feature Flag User Lists](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/feature_flag_user_lists.md): Feature flag user targeting
+- [Freeze Periods](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/freeze_periods.md): Deployment freeze periods
+- [Keys](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/keys.md): SSH key validation
+- [Lint](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/lint.md): CI configuration validation
+- [Markdown](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/markdown.md): Markdown rendering API
+- [Namespaces](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/namespaces.md): Namespace management
+- [Organizations](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/organizations.md): Organization management
+- [Pages](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/pages.md): GitLab Pages management
+- [Pages Domains](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/pages_domains.md): Pages domain management
+- [Search](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/search.md): Global search API
+- [Search Admin](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/search_admin.md): Admin search features
+- [Status Checks](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/status_checks.md): External status checks
+- [Topics](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/topics.md): Project topic management
+
+## Optional Resources
+
+- [Badges](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/project_badges.md): Project badge management
+- [Group Badges](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_badges.md): Group badge management
+- [Bulk Imports](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/bulk_imports.md): Bulk import functionality
+- [Chat](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/chat.md): Chat integration
+- [Code Suggestions](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/code_suggestions.md): AI code suggestions
+- [Database Migrations](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/database_migrations.md): Database migration tracking
+- [Experiments](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/experiments.md): A/B testing experiments
+- [External Controls](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/external_controls.md): External control systems
+- [Geo Nodes](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/geo_nodes.md): GitLab Geo node management
+- [Geo Sites](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/geo_sites.md): GitLab Geo site management
+- [Google Cloud Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/google_cloud_integration.md): Google Cloud integration
+- [Import](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/import.md): Project import functionality
+- [Model Registry](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/model_registry.md): ML model registry
+- [OpenAPI Interactive](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/openapi/openapi_interactive.md): Interactive API documentation
+- [Releases](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/releases/_index.md): Release management
+- [Release Links](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/releases/links.md): Release asset links
+- [Group Releases](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_releases.md): Group-level releases
+- [Resource Groups](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/resource_groups.md): CI resource groups
+- [Resource Events](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/resource_iteration_events.md): Iteration events
+- [Resource Label Events](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/resource_label_events.md): Label change events
+- [Resource Milestone Events](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/resource_milestone_events.md): Milestone events
+- [Resource State Events](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/resource_state_events.md): State change events
+- [Resource Weight Events](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/resource_weight_events.md): Weight change events
+- [Storage Management](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/project_repository_storage_moves.md): Project repository storage moves
+- [Group Repository Storage Moves](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_repository_storage_moves.md): Group repository storage moves
+- [Snippet Repository Storage Moves](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/snippet_repository_storage_moves.md): Snippet repository storage moves
+
+## GraphQL Specialized APIs
+
+- [Assign GitLab Duo Seats](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/graphql/assign_gitlab_duo_seats.md): GitLab Duo seat assignment
+- [Audit Event Streaming Groups](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/graphql/audit_event_streaming_groups.md): Group audit streaming
+- [Audit Event Streaming Instances](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/graphql/audit_event_streaming_instances.md): Instance audit streaming
+- [Audit Report](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/graphql/audit_report.md): Audit reporting
+- [Branch Rules](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/graphql/branch_rules.md): Branch protection rules
+- [Custom Emoji](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/graphql/custom_emoji.md): Custom emoji management
+- [Epic Work Items Migration Guide](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/graphql/epic_work_items_api_migration_guide.md): Epic to work item migration
+
+## Protection & Security Rules
+
+- [Container Repository Protection Rules](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/container_repository_protection_rules.md): Container protection
+- [Project Packages Protection Rules](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/project_packages_protection_rules.md): Package protection
+- [Group Protected Branches](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_protected_branches.md): Group branch protection
+- [Group Protected Environments](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_protected_environments.md): Group environment protection
+- [Project Push Rules](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/project_push_rules.md): Project push rules
+- [Group Push Rules](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_push_rules.md): Group push rules
+- [Project Job Token Scopes](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/project_job_token_scopes.md): Job token access control
+
+## SSH & Certificate Management
+
+- [Group SSH Certificates](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/group_ssh_certificates.md): Group SSH certificate management

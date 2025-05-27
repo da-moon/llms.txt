@@ -1,0 +1,59 @@
+# GitLab Security
+
+> Comprehensive security configuration, hardening, and best practices for GitLab
+
+## Security Overview
+
+- [Security Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/_index.md): Main security documentation index
+
+## Security Hardening
+
+- [Security Hardening](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/hardening.md): General security hardening guide
+- [Application Hardening Recommendations](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/hardening_application_recommendations.md): Application-level security hardening
+- [CI/CD Hardening Recommendations](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/hardening_cicd_recommendations.md): CI/CD pipeline security hardening
+- [Configuration Hardening Recommendations](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/hardening_configuration_recommendations.md): Configuration security recommendations
+- [General Hardening Concepts](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/hardening_general_concepts.md): General security hardening concepts
+- [NIST 800-53 Hardening](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/hardening_nist_800_53.md): NIST 800-53 compliance hardening
+- [Operating System Hardening Recommendations](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/hardening_operating_system_recommendations.md): OS-level security hardening
+
+## Authentication and Authorization
+
+- [Two-Factor Authentication](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/two_factor_authentication.md): 2FA configuration and management
+- [Identity Verification](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/identity_verification.md): User identity verification
+- [Email Verification](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/email_verification.md): Email verification requirements
+- [User Email Confirmation](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/user_email_confirmation.md): Email confirmation processes
+
+## Password and Token Security
+
+- [Password Storage](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/password_storage.md): Secure password storage practices
+- [Password Length Limits](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/password_length_limits.md): Password length requirements
+- [Passwords for Integrated Authentication](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/passwords_for_integrated_authentication_methods.md): Authentication method password policies
+- [Tokens Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/tokens/_index.md): Token management and security
+- [Token Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/tokens/token_troubleshooting.md): Token-related troubleshooting
+
+## SSH and TLS Security
+
+- [SSH Keys Restrictions](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/ssh_keys_restrictions.md): SSH key security restrictions
+- [TLS Support](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/tls_support.md): TLS configuration and support
+
+## Security Controls and Limits
+
+- [Rate Limits](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/rate_limits.md): Rate limiting configuration
+- [Information Exclusivity](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/information_exclusivity.md): Information access controls
+- [User File Uploads](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/user_file_uploads.md): File upload security controls
+- [Webhooks Security](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/webhooks.md): Webhook security configuration
+
+## Vulnerability Protection
+
+- [Asset Proxy](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/asset_proxy.md): Asset proxy security configuration
+- [CRIME Vulnerability](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/crime_vulnerability.md): CRIME attack vulnerability protection
+
+## Security Operations
+
+- [Responding to Security Incidents](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/responding_to_security_incidents.md): Security incident response procedures
+- [Rotate Integration Secrets](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/rotate_integrations_secrets.md): Secret rotation procedures
+
+## User Management Security
+
+- [Reset User Password](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/reset_user_password.md): Password reset procedures
+- [Unlock User](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/security/unlock_user.md): User account unlocking procedures

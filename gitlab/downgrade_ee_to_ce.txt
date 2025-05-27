@@ -1,0 +1,7 @@
+# GitLab Downgrade EE to CE
+
+> Guide for downgrading GitLab Enterprise Edition to Community Edition
+
+## Core Documentation
+
+- [Downgrade Guide Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/downgrade_ee_to_ce/_index.md): Main downgrade documentation index

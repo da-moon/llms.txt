@@ -1,0 +1,34 @@
+# GitLab Installation
+
+> Complete installation guides for GitLab across different platforms and environments
+
+## Installation Overview
+
+- [Installation Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/install/_index.md): Main installation documentation index
+- [Installation Methods](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/install/install_methods.md): Available installation methods overview
+- [Installation Requirements](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/install/requirements.md): System requirements for GitLab
+- [Source Installation](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/install/installation.md): Installation from source code
+- [Next Steps](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/install/next_steps.md): Post-installation configuration steps
+
+## Cloud Platform Installation
+
+- [AWS Installation Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/install/aws/_index.md): AWS installation guide
+- [Azure Installation Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/install/azure/_index.md): Azure installation guide
+- [Google Cloud Platform Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/install/google_cloud_platform/_index.md): GCP installation guide
+- [Cloud Providers](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/install/cloud_providers.md): General cloud provider guidance
+
+## Docker Installation
+
+- [Docker Installation Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/install/docker/_index.md): Docker installation overview
+- [Docker Installation Guide](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/install/docker/installation.md): Step-by-step Docker installation
+- [Docker Configuration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/install/docker/configuration.md): Docker configuration options
+- [Docker Backup](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/install/docker/backup.md): Backup procedures for Docker installations
+- [Docker Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/install/docker/troubleshooting.md): Docker installation troubleshooting
+- [Docker Upgrade](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/install/docker/upgrade.md): Upgrading Docker installations
+
+## Specialized Installation
+
+- [OpenShift and GitLab Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/install/openshift_and_gitlab/_index.md): OpenShift deployment guide
+- [AI Gateway Installation](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/install/install_ai_gateway.md): GitLab AI Gateway installation
+- [PostgreSQL Extensions](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/install/postgresql_extensions.md): Required PostgreSQL extensions
+- [Relative URL Configuration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/install/relative_url.md): Installing GitLab under a relative URL

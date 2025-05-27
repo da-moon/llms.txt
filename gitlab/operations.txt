@@ -1,0 +1,26 @@
+# GitLab Operations
+
+> Operations, monitoring, incident management, and error tracking features
+
+## Core Operations
+
+- [Operations Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/operations/_index.md): Main operations documentation index
+- [Error Tracking](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/operations/error_tracking.md): Application error tracking features
+- [Feature Flags](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/operations/feature_flags.md): Feature flag management and deployment
+- [Integrated Error Tracking](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/operations/integrated_error_tracking.md): Built-in error tracking capabilities
+- [Sentry Error Tracking](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/operations/sentry_error_tracking.md): Sentry integration for error tracking
+
+## Incident Management
+
+- [Incident Management Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/operations/incident_management/_index.md): Incident management overview
+- [Alerts](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/operations/incident_management/alerts.md): Alert management and configuration
+- [Escalation Policies](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/operations/incident_management/escalation_policies.md): Incident escalation policies
+- [Incident Timeline Events](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/operations/incident_management/incident_timeline_events.md): Timeline tracking for incidents
+- [Incidents](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/operations/incident_management/incidents.md): Incident creation and management
+- [Integrations](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/operations/incident_management/integrations.md): Incident management integrations
+- [Linked Resources](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/operations/incident_management/linked_resources.md): Link external resources to incidents
+- [Manage Incidents](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/operations/incident_management/manage_incidents.md): Incident management workflow
+- [On-call Schedules](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/operations/incident_management/oncall_schedules.md): On-call rotation management
+- [Paging](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/operations/incident_management/paging.md): Incident paging and notifications
+- [Slack Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/operations/incident_management/slack.md): Slack integration for incident management
+- [Status Page](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/operations/incident_management/status_page.md): Public status page management

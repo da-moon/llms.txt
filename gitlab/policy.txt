@@ -1,0 +1,9 @@
+# GitLab Policy
+
+> GitLab's development and operational policies documentation
+
+## Development Policies
+
+- [Development Stages Support](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/policy/development_stages_support.md): GitLab development stages support policy
+- [Early Access Program Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/policy/early_access_program/_index.md): Early access program documentation
+- [Maintenance Policy](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/policy/maintenance.md): GitLab maintenance policy and guidelines

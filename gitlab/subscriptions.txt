@@ -1,0 +1,31 @@
+# GitLab Subscriptions
+
+> GitLab subscription plans, pricing, and subscription management documentation
+
+## Core Subscription Information
+
+- [Subscriptions Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/subscriptions/_index.md): Main subscriptions documentation index
+- [Bronze Starter](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/subscriptions/bronze_starter.md): Bronze Starter plan information
+- [Choosing Subscription](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/subscriptions/choosing_subscription.md): Guide to choosing the right subscription
+- [Community Programs](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/subscriptions/community_programs.md): Community and educational programs
+- [Customers Portal](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/subscriptions/customers_portal.md): Customer portal usage and features
+
+## GitLab.com Subscriptions
+
+- [GitLab.com Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/subscriptions/gitlab_com/_index.md): GitLab.com subscription documentation
+- [Compute Minutes](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/subscriptions/gitlab_com/compute_minutes.md): CI/CD compute minutes and limits
+- [Subscription Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/subscriptions/gitlab_com/gitlab_subscription_troubleshooting.md): GitLab.com subscription troubleshooting
+
+## GitLab Dedicated
+
+- [GitLab Dedicated Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/subscriptions/gitlab_dedicated/_index.md): GitLab Dedicated subscription documentation
+- [Data Residency and High Availability](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/subscriptions/gitlab_dedicated/data_residency_and_high_availability.md): Data residency and HA options
+- [Maintenance](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/subscriptions/gitlab_dedicated/maintenance.md): GitLab Dedicated maintenance information
+- [GitLab Dedicated for Government Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/subscriptions/gitlab_dedicated_for_government/_index.md): Government-specific GitLab Dedicated
+
+## Subscription Management
+
+- [Manage Subscription](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/subscriptions/manage_subscription.md): How to manage your subscription
+- [Quarterly Reconciliation](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/subscriptions/quarterly_reconciliation.md): Quarterly reconciliation process
+- [Self-Managed Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/subscriptions/self_managed/_index.md): Self-managed subscription documentation
+- [Subscription Add-ons](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/subscriptions/subscription-add-ons.md): Available subscription add-ons

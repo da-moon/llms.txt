@@ -1,0 +1,47 @@
+# GitLab Editor Extensions
+
+> IDE integrations and editor extensions for enhanced GitLab development workflow
+
+## Overview
+
+- [Editor Extensions Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/_index.md): Main editor extensions documentation
+- [Language Server Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/language_server/_index.md): GitLab Language Server overview
+
+## Command Line Interface
+
+- [GitLab CLI Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/gitlab_cli/_index.md): GitLab CLI documentation and usage
+
+## Visual Studio Code
+
+- [VS Code Extension Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/visual_studio_code/_index.md): VS Code extension overview
+- [VS Code Setup](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/visual_studio_code/setup.md): VS Code extension setup and configuration
+- [VS Code Settings](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/visual_studio_code/settings.md): Extension settings and preferences
+- [CI/CD Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/visual_studio_code/cicd.md): CI/CD features in VS Code extension
+- [Custom Queries](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/visual_studio_code/custom_queries.md): Custom query configuration
+- [Remote URLs](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/visual_studio_code/remote_urls.md): Remote URL configuration
+- [SSL Configuration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/visual_studio_code/ssl.md): SSL and certificate configuration
+- [VS Code Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/visual_studio_code/troubleshooting.md): VS Code extension troubleshooting
+
+## JetBrains IDEs
+
+- [JetBrains IDE Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/jetbrains_ide/_index.md): JetBrains IDE integration overview
+- [JetBrains Setup](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/jetbrains_ide/setup.md): JetBrains IDE setup and configuration
+- [JetBrains Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/jetbrains_ide/jetbrains_troubleshooting.md): JetBrains IDE troubleshooting
+
+## Visual Studio
+
+- [Visual Studio Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/visual_studio/_index.md): Visual Studio extension overview
+- [Visual Studio Setup](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/visual_studio/setup.md): Visual Studio extension setup
+- [Visual Studio Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/visual_studio/visual_studio_troubleshooting.md): Visual Studio extension troubleshooting
+
+## Eclipse
+
+- [Eclipse Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/eclipse/_index.md): Eclipse IDE integration overview
+- [Eclipse Setup](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/eclipse/setup.md): Eclipse IDE setup and configuration
+- [Eclipse Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/eclipse/troubleshooting.md): Eclipse IDE troubleshooting
+
+## Neovim
+
+- [Neovim Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/neovim/_index.md): Neovim integration overview
+- [Neovim Setup](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/neovim/setup.md): Neovim setup and configuration
+- [Neovim Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/editor_extensions/neovim/neovim_troubleshooting.md): Neovim troubleshooting

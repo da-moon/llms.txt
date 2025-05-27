@@ -1,0 +1,8 @@
+# GitLab Drawers
+
+> Advanced search functionality and code search syntax documentation
+
+## Search Functionality
+
+- [Advanced Search Syntax](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/drawers/advanced_search_syntax.md): Advanced search syntax and operators
+- [Exact Code Search Syntax](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/drawers/exact_code_search_syntax.md): Exact code search syntax and usage

@@ -1,0 +1,210 @@
+# GitLab CI/CD Documentation
+
+> Comprehensive documentation for GitLab's Continuous Integration and Continuous Deployment features, including pipelines, jobs, runners, testing, and deployment configurations.
+
+## Core CI/CD Documentation
+
+- [CI/CD Overview](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/_index.md): Index and overview of GitLab CI/CD features
+- [Quick Start Guide](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/quick_start/_index.md): Getting started with GitLab CI/CD
+- [CI/CD Tutorial](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/quick_start/tutorial.md): Step-by-step tutorial for beginners
+- [Debugging CI/CD](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/debugging.md): Troubleshooting and debugging CI/CD issues
+
+## Pipeline Configuration & Management
+
+- [Pipelines Overview](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/pipelines/_index.md): Main pipelines documentation
+- [Pipeline Types](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/pipelines/pipeline_types.md): Different types of pipelines available
+- [Pipeline Architectures](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/pipelines/pipeline_architectures.md): Best practices for pipeline design
+- [Pipeline Efficiency](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/pipelines/pipeline_efficiency.md): Optimizing pipeline performance
+- [Pipeline Security](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/pipelines/pipeline_security.md): Security considerations for pipelines
+- [Pipeline Settings](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/pipelines/settings.md): Configuring pipeline settings
+- [Pipeline Schedules](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/pipelines/schedules.md): Scheduling automated pipeline runs
+
+## Advanced Pipeline Features
+
+- [Downstream Pipelines](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/pipelines/downstream_pipelines.md): Target pipeline configuration and multi-project pipelines
+- [Downstream Pipelines Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/pipelines/downstream_pipelines_troubleshooting.md): Debugging downstream pipeline issues
+- [Merge Request Pipelines](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/pipelines/merge_request_pipelines.md): Pipelines for merge requests
+- [Merged Results Pipelines](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/pipelines/merged_results_pipelines.md): Testing merged results before merge
+- [Merge Trains](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/pipelines/merge_trains.md): Sequential merge request processing
+- [MR Pipeline Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/pipelines/mr_pipeline_troubleshooting.md): Debugging merge request pipeline issues
+
+## Jobs Configuration & Management
+
+- [Jobs Overview](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/jobs/_index.md): Main jobs documentation
+- [Job Control](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/jobs/job_control.md): Controlling job execution
+- [Job Rules](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/jobs/job_rules.md): Conditional job execution rules
+- [Job Artifacts](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/jobs/job_artifacts.md): Managing build artifacts
+- [Job Artifacts Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/jobs/job_artifacts_troubleshooting.md): Debugging artifact issues
+- [Job Logs](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/jobs/job_logs.md): Accessing and managing job logs
+- [Job Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/jobs/job_troubleshooting.md): Debugging job issues and resource groups
+- [CI Job Token](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/jobs/ci_job_token.md): Authentication token for CI jobs
+- [Fine Grained Permissions](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/jobs/fine_grained_permissions.md): Detailed permission control for jobs
+- [SSH Keys](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/jobs/ssh_keys.md): Using SSH keys in CI jobs
+
+## Runners & Infrastructure
+
+- [Runners Overview](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/runners/_index.md): Main runners documentation
+- [Configure Runners](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/runners/configure_runners.md): Setting up and configuring runners
+- [Runners Scope](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/runners/runners_scope.md): Understanding runner scope and visibility
+- [New Creation Workflow](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/runners/new_creation_workflow.md): Updated runner creation process
+- [Long Polling](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/runners/long_polling.md): Runner communication mechanism
+- [Git Submodules](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/runners/git_submodules.md): Handling Git submodules in runners
+- [Runner Fleet Dashboard](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/runners/runner_fleet_dashboard.md): Managing runner fleets
+- [Runner Fleet Dashboard Groups](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/runners/runner_fleet_dashboard_groups.md): Group-level runner management
+
+## Hosted Runners
+
+- [Hosted Runners Overview](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/runners/hosted_runners/_index.md): GitLab-managed runners
+- [Linux Hosted Runners](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/runners/hosted_runners/linux.md): Linux-based hosted runners
+- [macOS Hosted Runners](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/runners/hosted_runners/macos.md): macOS-based hosted runners
+- [Windows Hosted Runners](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/runners/hosted_runners/windows.md): Windows-based hosted runners
+- [GPU Enabled Runners](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/runners/hosted_runners/gpu_enabled.md): GPU-accelerated hosted runners
+- [Provision Runners on Google Cloud](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/runners/provision_runners_google_cloud.md): Setting up runners on GCP
+
+## Compute Minutes & Billing
+
+- [Compute Minutes](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/pipelines/compute_minutes.md): Understanding CI/CD compute usage
+- [Instance Runner Compute Minutes](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/pipelines/instance_runner_compute_minutes.md): Instance-level runner billing
+- [Dedicated Hosted Runner Compute Minutes](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/pipelines/dedicated_hosted_runner_compute_minutes.md): Dedicated runner billing
+
+## YAML Configuration
+
+- [GitLab CI YAML Reference](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/yaml/_index.md): Complete YAML configuration reference
+- [Workflow Configuration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/yaml/workflow.md): Workflow rules and configuration
+- [Script Configuration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/yaml/script.md): Script execution configuration
+- [Needs Configuration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/yaml/needs.md): Job dependency configuration
+- [Includes Configuration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/yaml/includes.md): Including external YAML files
+- [Inputs Configuration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/yaml/inputs.md): Pipeline input parameters
+- [YAML Lint](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/yaml/lint.md): Validating YAML syntax
+- [YAML Optimization](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/yaml/yaml_optimization.md): Optimizing YAML configuration
+- [Artifacts Reports](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/yaml/artifacts_reports.md): Configuring artifact reports
+- [Signing Examples](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/yaml/signing_examples.md): Code signing configuration examples
+
+## Variables & Configuration
+
+- [Variables Overview](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/variables/_index.md): CI/CD variables documentation
+- [Predefined Variables](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/variables/predefined_variables.md): Built-in GitLab CI variables
+- [Where Variables Can Be Used](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/variables/where_variables_can_be_used.md): Variable usage contexts
+- [Pipeline Inputs](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/inputs/_index.md): Pipeline input parameters
+- [Input Examples](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/inputs/examples.md): Pipeline input usage examples
+
+## Docker & Container Integration
+
+- [Docker Overview](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/docker/_index.md): Docker integration with GitLab CI
+- [Using Docker Images](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/docker/using_docker_images.md): Running jobs in Docker containers
+- [Using Docker Build](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/docker/using_docker_build.md): Building Docker images in CI
+- [Docker Layer Caching](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/docker/docker_layer_caching.md): Optimizing Docker builds with caching
+- [Authenticate Registry](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/docker/authenticate_registry.md): Docker registry authentication
+- [Using Kaniko](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/docker/using_kaniko.md): Building Docker images without Docker daemon
+- [Buildah Rootless Tutorial](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/docker/buildah_rootless_tutorial.md): Rootless container builds with Buildah
+
+## Testing & Quality Assurance
+
+- [Testing Overview](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/testing/_index.md): Testing in GitLab CI/CD
+- [Unit Test Reports](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/testing/unit_test_reports.md): Generating and viewing unit test reports
+- [Unit Test Report Examples](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/testing/unit_test_report_examples.md): Examples of test report configurations
+- [Code Quality](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/testing/code_quality.md): Code quality analysis in CI
+- [Code Quality CodeClimate Scanning](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/testing/code_quality_codeclimate_scanning.md): CodeClimate integration
+- [Code Quality Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/testing/code_quality_troubleshooting.md): Debugging code quality issues
+- [Accessibility Testing](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/testing/accessibility_testing.md): Automated accessibility testing
+- [Browser Performance Testing](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/testing/browser_performance_testing.md): Performance testing in browsers
+- [Load Performance Testing](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/testing/load_performance_testing.md): Load testing configurations
+- [Fail Fast Testing](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/testing/fail_fast_testing.md): Early failure detection strategies
+- [Metrics Reports](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/testing/metrics_reports.md): Custom metrics reporting
+
+## Code Coverage
+
+- [Code Coverage Overview](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/testing/code_coverage/_index.md): Code coverage analysis
+- [Cobertura Coverage](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/testing/code_coverage/cobertura.md): Cobertura coverage reports
+- [JaCoCo Coverage](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/testing/code_coverage/jacoco.md): JaCoCo coverage for Java
+
+## Deployment & Environments
+
+- [Environments Overview](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/environments/_index.md): Environment management
+- [Deployments](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/environments/deployments.md): Deployment strategies and configuration
+- [Deployment Approvals](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/environments/deployment_approvals.md): Manual deployment approvals
+- [Deployment Safety](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/environments/deployment_safety.md): Safe deployment practices
+- [Protected Environments](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/environments/protected_environments.md): Environment access control
+- [Incremental Rollouts](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/environments/incremental_rollouts.md): Gradual deployment strategies
+- [Environments Dashboard](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/environments/environments_dashboard.md): Environment monitoring dashboard
+- [External Deployment Tools](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/environments/external_deployment_tools.md): Integration with external deployment tools
+- [Configure Kubernetes Deployments](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/environments/configure_kubernetes_deployments.md): Kubernetes deployment configuration
+- [Kubernetes Dashboard](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/environments/kubernetes_dashboard.md): Kubernetes cluster dashboard
+- [Review Apps](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/review_apps/_index.md): Dynamic environment creation for reviews
+
+## Cloud Integration & Deployment
+
+- [Cloud Deployment Overview](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/cloud_deployment/_index.md): Cloud deployment strategies
+- [Deploy to AWS ECS](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/cloud_deployment/ecs/deploy_to_aws_ecs.md): Amazon ECS deployment
+- [Heroku Deployment](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/cloud_deployment/heroku.md): Deploying to Heroku platform
+- [Cloud Services Overview](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/cloud_services/_index.md): Cloud service integrations
+- [AWS Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/cloud_services/aws/_index.md): Amazon Web Services integration
+- [Azure Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/cloud_services/azure/_index.md): Microsoft Azure integration
+- [Google Cloud Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/cloud_services/google_cloud/_index.md): Google Cloud Platform integration
+- [GitLab Google Cloud Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/gitlab_google_cloud_integration/_index.md): Native GCP integration features
+
+## Security & Secrets Management
+
+- [Secrets Overview](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/secrets/_index.md): Secrets management in CI/CD
+- [ID Token Authentication](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/secrets/id_token_authentication.md): OpenID Connect token authentication
+- [Convert to ID Tokens](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/secrets/convert-to-id-tokens.md): Migrating to ID token authentication
+- [HashiCorp Vault](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/secrets/hashicorp_vault.md): HashiCorp Vault integration for secrets
+- [Azure Key Vault](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/secrets/azure_key_vault.md): Azure Key Vault integration
+- [GCP Secret Manager](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/secrets/gcp_secret_manager.md): Google Cloud Secret Manager integration
+- [Akeyless Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/secrets/akeyless.md): Akeyless Vault integration
+- [Fortanix DSM Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/secrets/fortanix_dsm_integration.md): Fortanix Data Security Manager integration
+- [Secure Files](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/secure_files/_index.md): Secure file storage and access
+
+## Services & Dependencies
+
+- [Services Overview](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/services/_index.md): Service containers in CI/CD
+- [PostgreSQL Service](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/services/postgres.md): PostgreSQL database service
+- [MySQL Service](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/services/mysql.md): MySQL database service
+- [Redis Service](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/services/redis.md): Redis cache service
+- [GitLab Service](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/services/gitlab.md): GitLab service integration
+
+## Advanced Features
+
+- [Caching](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/caching/_index.md): CI/CD caching strategies
+- [Resource Groups](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/resource_groups/_index.md): Managing resource access and concurrency
+- [Triggers](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/triggers/_index.md): Pipeline triggers and automation
+- [ChatOps](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/chatops/_index.md): Chat-based CI/CD operations
+- [Interactive Web Terminal](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/interactive_web_terminal/_index.md): Web-based terminal access
+- [Pipeline Editor](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/pipeline_editor/_index.md): Visual pipeline editor interface
+- [Test Cases](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/test_cases/_index.md): Test case management
+- [Steps](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/steps/_index.md): Pipeline steps configuration
+
+## Components & Reusability
+
+- [Components Overview](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/components/_index.md): Reusable CI/CD components
+- [Component Examples](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/components/examples.md): Examples of CI/CD components
+
+## Migration & Integration
+
+- [Plan a Migration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/migration/plan_a_migration.md): Planning CI/CD migration strategy
+- [Jenkins Migration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/migration/jenkins.md): Migrating from Jenkins
+- [Jenkins Maven Example](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/migration/examples/jenkins-maven.md): Jenkins to GitLab Maven migration
+- [GitHub Actions Migration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/migration/github_actions.md): Migrating from GitHub Actions
+- [CircleCI Migration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/migration/circleci.md): Migrating from CircleCI
+- [TeamCity Migration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/migration/teamcity.md): Migrating from TeamCity
+- [Bamboo Migration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/migration/bamboo.md): Migrating from Bamboo
+
+## External Repository Integration
+
+- [CI/CD for External Repos](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/ci_cd_for_external_repos/_index.md): CI/CD for external repositories
+- [Bitbucket Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/ci_cd_for_external_repos/bitbucket_integration.md): Bitbucket repository integration
+- [GitHub Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/ci_cd_for_external_repos/github_integration.md): GitHub repository integration
+
+## Mobile Development
+
+- [Mobile DevOps Overview](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/mobile_devops/_index.md): Mobile development with GitLab CI/CD
+- [Android Mobile DevOps Tutorial](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/mobile_devops/mobile_devops_tutorial_android.md): Android CI/CD setup
+- [iOS Mobile DevOps Tutorial](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/mobile_devops/mobile_devops_tutorial_ios.md): iOS CI/CD setup
+
+## Examples & Templates
+
+- [CI/CD Examples](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/examples/_index.md): CI/CD configuration examples
+- [Deployment Examples](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/examples/deployment/_index.md): Deployment configuration examples
+- [PHP Example](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/examples/php.md): PHP project CI/CD setup
+- [Semantic Release](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/examples/semantic-release.md): Automated semantic versioning
+- [Composer NPM Deploy](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/ci/examples/deployment/composer-npm-deploy.md): PHP Composer and NPM deployment

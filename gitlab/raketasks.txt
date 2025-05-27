@@ -1,0 +1,12 @@
+# GitLab Rake Tasks
+
+> Administrative tasks and utilities available through GitLab's Rake interface
+
+## Core Rake Tasks
+
+- [Rake Tasks Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/raketasks/_index.md): Main rake tasks documentation index
+- [Cleanup Tasks](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/raketasks/cleanup.md): System cleanup and maintenance tasks
+- [SPDX Tasks](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/raketasks/spdx.md): Software Package Data Exchange tasks
+- [User Management Tasks](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/raketasks/user_management.md): User administration and management tasks
+- [Web Hooks Tasks](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/raketasks/web_hooks.md): Webhook management and utilities
+- [X509 Signatures Tasks](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/raketasks/x509_signatures.md): X.509 certificate and signature management

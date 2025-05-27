@@ -1,0 +1,44 @@
+# GitLab Updates
+
+> Comprehensive guides for upgrading and maintaining GitLab installations
+
+## Update Planning
+
+- [Update Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/update/_index.md): Main update documentation index
+- [Plan Your Upgrade](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/update/plan_your_upgrade.md): How to plan GitLab upgrades
+- [Upgrade Paths](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/update/upgrade_paths.md): Supported upgrade paths between versions
+- [Terminology](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/update/terminology.md): Update terminology and definitions
+
+## Update Methods
+
+- [Zero Downtime Updates](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/update/zero_downtime.md): Zero downtime upgrade procedures
+- [Updates With Downtime](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/update/with_downtime.md): Standard update procedures with downtime
+- [Patch Version Updates](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/update/patch_versions.md): Applying patch version updates
+
+## Package Updates
+
+- [Package Update Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/update/package/_index.md): Package-based update documentation
+- [Convert to EE](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/update/package/convert_to_ee.md): Converting CE to Enterprise Edition
+- [Package Downgrade](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/update/package/downgrade.md): Downgrading package installations
+- [Package Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/update/package/package_troubleshooting.md): Package update troubleshooting
+
+## Source Updates
+
+- [Upgrading from Source](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/update/upgrading_from_source.md): Upgrading source installations
+- [Upgrading from CE to EE](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/update/upgrading_from_ce_to_ee.md): Community to Enterprise Edition upgrade
+
+## Background Migrations
+
+- [Background Migrations](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/update/background_migrations.md): Understanding background migrations
+- [Background Migration Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/update/background_migrations_troubleshooting.md): Troubleshooting background migrations
+
+## Version-Specific Changes
+
+- [GitLab 15 Changes](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/update/versions/gitlab_15_changes.md): Breaking changes in GitLab 15
+- [GitLab 16 Changes](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/update/versions/gitlab_16_changes.md): Breaking changes in GitLab 16
+- [GitLab 17 Changes](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/update/versions/gitlab_17_changes.md): Breaking changes in GitLab 17
+
+## Deprecations and Breaking Changes
+
+- [Breaking Windows](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/update/breaking_windows.md): Breaking change windows and policies
+- [Deprecations](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/update/deprecations.md): Deprecated features and removal timelines

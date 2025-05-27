@@ -1,0 +1,64 @@
+# GitLab Solutions
+
+> Comprehensive solutions and best practices for GitLab deployments and integrations
+
+## Solutions Overview
+
+- [Solutions Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/_index.md): Main solutions documentation index
+
+## Cloud Solutions
+
+- [Cloud Solutions Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/cloud/_index.md): Cloud deployment solutions overview
+
+### AWS Solutions
+
+- [AWS Solutions Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/cloud/aws/_index.md): AWS-specific solutions
+- [Gitaly SRE for AWS](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/cloud/aws/gitaly_sre_for_aws.md): Gitaly SRE practices on AWS
+- [GitLab AWS Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/cloud/aws/gitlab_aws_integration.md): AWS service integrations
+- [GitLab AWS Partner Designations](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/cloud/aws/gitlab_aws_partner_designations.md): AWS partnership information
+- [GitLab Instance on AWS](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/cloud/aws/gitlab_instance_on_aws.md): GitLab deployment on AWS
+- [GitLab Single Box on AWS](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/cloud/aws/gitlab_single_box_on_aws.md): Single-server AWS deployment
+
+### AWS Tutorials
+
+- [AWS Tutorials Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/cloud/aws/tutorials/_index.md): AWS tutorial collection
+- [AWS ECR Pull Through Cache](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/cloud/aws/tutorials/aws_ecr_pull_through_cache.md): ECR pull-through cache setup
+
+## Component Solutions
+
+- [Components Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/components/_index.md): Component-based solutions
+
+### AI and Automation
+
+- [AI Gateway Solution](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/components/ai_gatewaysolution.md): AI Gateway deployment solution
+- [Duo Workflow Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/components/duo_workflow/_index.md): GitLab Duo workflow solutions
+- [Duo Workflow Code Style](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/components/duo_workflow/duo_workflow_codestyle.md): Code style automation with Duo
+- [Duo Workflow GenDoc](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/components/duo_workflow/duo_workflow_gendoc.md): Documentation generation with Duo
+- [Duo Workflow Code Style (Alternative)](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/components/duo_workflow_codestyle.md): Alternative code style solution
+
+### Security and Compliance
+
+- [Secret Detection](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/components/secret_detection.md): Secret detection implementation
+- [Security KPI](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/components/securitykpi.md): Security key performance indicators
+- [OSS License Check](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/components/oss_license_check.md): Open source license compliance
+- [Regulated Industry SDLC](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/components/regulatedindustry_sdlc.md): Regulated industry software development lifecycle
+
+### Third-Party Integrations
+
+- [Integrated ServiceNow](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/components/integrated_servicenow.md): ServiceNow integration solution
+- [Integrated Snyk](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/components/integrated_snyk.md): Snyk security integration
+
+### Mobile Development
+
+- [Workflow Mobile Apps](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/components/workflow_mobileapps.md): Mobile application development workflow
+
+## Integration Solutions
+
+- [Integrations Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/integrations/_index.md): Integration solutions overview
+- [AWS Google Cloud Ollama](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/integrations/aws_googlecloud_ollama.md): Multi-cloud AI integration
+- [ServiceNow Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/integrations/servicenow.md): ServiceNow integration guide
+
+## Language-Specific Solutions
+
+- [Languages Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/languages/_index.md): Language-specific solutions
+- [Rust Solutions Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/solutions/languages/rust/_index.md): Rust development solutions

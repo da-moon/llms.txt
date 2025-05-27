@@ -1,0 +1,468 @@
+# GitLab Administration
+
+> Comprehensive documentation for GitLab administration, covering system configuration, user management, security, monitoring, and maintenance operations.
+
+## Core Administration
+
+- [Administration Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/_index.md): Main administration documentation index
+- [Get Started](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/get_started.md): Getting started with GitLab administration
+- [Configure](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/configure.md): Basic configuration guide
+- [Admin Area](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/admin_area.md): Using the GitLab admin area interface
+
+## User Management
+
+- [Administer Users](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/administer_users.md): User administration and management
+- [Guest Users](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/guest_users.md): Managing guest user accounts
+- [External Users](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/external_users.md): Configuring external user access
+- [Internal Users](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/internal_users.md): Managing internal system users
+- [Auditor Users](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/auditor_users.md): Setting up auditor user accounts
+- [Moderate Users](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/moderate_users.md): User moderation tools and processes
+- [User Settings](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/user_settings.md): Global user settings configuration
+- [User Cohorts](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/user_cohorts.md): User cohort analytics and tracking
+
+## Authentication & Authorization
+
+- [Authentication Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/auth/_index.md): Authentication system overview
+- [LDAP](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/auth/ldap/_index.md): LDAP authentication configuration
+- [LDAP Google Secure](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/auth/ldap/google_secure_ldap.md): Google Secure LDAP setup
+- [LDAP Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/auth/ldap/ldap-troubleshooting.md): LDAP troubleshooting guide
+- [LDAP Synchronization](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/auth/ldap/ldap_synchronization.md): LDAP user synchronization
+- [OIDC](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/auth/oidc.md): OpenID Connect authentication
+- [JWT](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/auth/jwt.md): JWT authentication configuration
+- [Atlassian](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/auth/atlassian.md): Atlassian integration authentication
+- [Cognito](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/auth/cognito.md): AWS Cognito authentication
+- [Crowd](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/auth/crowd.md): Atlassian Crowd authentication
+- [Smartcard](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/auth/smartcard.md): Smartcard authentication setup
+- [Test OIDC OAuth](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/auth/test_oidc_oauth.md): Testing OIDC/OAuth configurations
+
+## System Configuration
+
+- [Environment Variables](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/environment_variables.md): System environment variable configuration
+- [Encrypted Configuration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/encrypted_configuration.md): Encrypted configuration files
+- [Application Settings Cache](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/application_settings_cache.md): Application settings caching
+- [Appearance](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/appearance.md): Customizing GitLab appearance
+- [Custom HTML Header Tags](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/custom_html_header_tags.md): Adding custom HTML headers
+- [Timezone](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/timezone.md): Timezone configuration
+- [Load Balancer](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/load_balancer.md): Load balancer configuration
+- [Git Protocol](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/git_protocol.md): Git protocol configuration
+
+## Storage & Data Management
+
+- [Object Storage](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/object_storage.md): Object storage configuration
+- [Repository Storage Paths](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/repository_storage_paths.md): Repository storage configuration
+- [Repository Checks](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/repository_checks.md): Repository integrity checks
+- [Static Objects External Storage](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/static_objects_external_storage.md): External storage for static objects
+- [Uploads](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/uploads.md): File upload configuration
+- [NFS](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/nfs.md): Network File System configuration
+- [LFS](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/lfs/_index.md): Git Large File Storage administration
+
+## Database Administration
+
+- [PostgreSQL Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/postgresql/_index.md): PostgreSQL administration overview
+- [External Database](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/postgresql/external.md): External PostgreSQL setup
+- [Database Load Balancing](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/postgresql/database_load_balancing.md): Database load balancing configuration
+- [Multiple Databases](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/postgresql/multiple_databases.md): Multiple database configuration
+- [PgBouncer](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/postgresql/pgbouncer.md): PgBouncer connection pooling
+- [Replication and Failover](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/postgresql/replication_and_failover.md): Database replication setup
+- [Replication Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/postgresql/replication_and_failover_troubleshooting.md): Database replication troubleshooting
+- [Standalone PostgreSQL](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/postgresql/standalone.md): Standalone PostgreSQL setup
+- [PostgreSQL Upgrade](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/postgresql/external_upgrade.md): PostgreSQL upgrade procedures
+- [Moving PostgreSQL](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/postgresql/moving.md): Moving PostgreSQL databases
+- [OS Upgrade](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/postgresql/upgrading_os.md): Operating system upgrade procedures
+- [External Metrics](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/postgresql/external_metrics.md): External PostgreSQL metrics
+
+## Redis Configuration
+
+- [Redis Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/redis/_index.md): Redis administration overview
+- [Redis Replication and Failover](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/redis/replication_and_failover.md): Redis replication setup
+- [Redis External Failover](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/redis/replication_and_failover_external.md): External Redis failover configuration
+- [Standalone Redis](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/redis/standalone.md): Standalone Redis setup
+- [Redis Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/redis/troubleshooting.md): Redis troubleshooting guide
+
+## Gitaly Configuration
+
+- [Gitaly Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/gitaly/_index.md): Gitaly administration overview
+- [Configure Gitaly](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/gitaly/configure_gitaly.md): Gitaly configuration guide
+- [Praefect](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/gitaly/praefect.md): Praefect cluster management
+- [Gitaly Monitoring](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/gitaly/monitoring.md): Gitaly monitoring setup
+- [TLS Support](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/gitaly/tls_support.md): Gitaly TLS configuration
+- [Consistency Checks](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/gitaly/consistency_checks.md): Gitaly consistency checking
+- [Concurrency Limiting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/gitaly/concurrency_limiting.md): Gitaly concurrency limits
+- [Cgroups](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/gitaly/cgroups.md): Gitaly cgroups configuration
+- [Bundle URIs](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/gitaly/bundle_uris.md): Git bundle URI support
+- [Kubernetes](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/gitaly/kubernetes.md): Gitaly on Kubernetes
+- [Recovery](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/gitaly/recovery.md): Gitaly recovery procedures
+- [Reference](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/gitaly/reference.md): Gitaly configuration reference
+- [Gitaly Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/gitaly/troubleshooting.md): Gitaly troubleshooting guide
+- [Gitaly Cluster Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/gitaly/troubleshooting_gitaly_cluster.md): Gitaly cluster troubleshooting
+- [Gitaly Geo Capabilities](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/gitaly/gitaly_geo_capabilities.md): Gitaly Geo integration
+
+## Backup & Restore
+
+- [Backup Restore Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/backup_restore/_index.md): Backup and restore overview
+- [Backup GitLab](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/backup_restore/backup_gitlab.md): Creating GitLab backups
+- [Restore GitLab](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/backup_restore/restore_gitlab.md): Restoring GitLab from backup
+- [Backup CLI](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/backup_restore/backup_cli.md): Backup command-line interface
+- [Backup Archive Process](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/backup_restore/backup_archive_process.md): Backup archive processing
+- [Backup Large Architectures](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/backup_restore/backup_large_reference_architectures.md): Backing up large GitLab deployments
+- [Migrate to New Server](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/backup_restore/migrate_to_new_server.md): Server migration procedures
+- [Troubleshooting Backup](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/backup_restore/troubleshooting_backup_gitlab.md): Backup troubleshooting guide
+
+## CI/CD Administration
+
+- [CI/CD Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/cicd/_index.md): CI/CD administration overview
+- [Job Artifacts](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/cicd/job_artifacts.md): Job artifacts configuration
+- [Job Artifacts Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/cicd/job_artifacts_troubleshooting.md): Job artifacts troubleshooting
+- [Job Logs](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/cicd/job_logs.md): Job logs configuration
+- [Compute Minutes](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/cicd/compute_minutes.md): Compute minutes management
+- [GitLab.com Compute Minutes](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/cicd/dot_com_compute_minutes.md): GitLab.com compute minutes
+- [External Pipeline Validation](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/cicd/external_pipeline_validation.md): External pipeline validation
+- [Secure Files](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/cicd/secure_files.md): Secure file management
+- [Maintenance](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/cicd/maintenance.md): CI/CD maintenance tasks
+
+## Monitoring & Analytics
+
+- [Monitoring Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/monitoring/_index.md): Monitoring overview
+- [Health Check](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/monitoring/health_check.md): System health monitoring
+- [IP Allowlist](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/monitoring/ip_allowlist.md): IP allowlist configuration
+- [GitHub Imports](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/monitoring/github_imports.md): GitHub import monitoring
+- [Analytics](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/analytics.md): Analytics configuration
+- [Dev Ops Reports](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/analytics/dev_ops_reports.md): DevOps reporting
+- [DevOps Adoption](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/analytics/devops_adoption.md): DevOps adoption metrics
+- [Usage Trends](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/analytics/usage_trends.md): Usage trend analytics
+
+## Prometheus Monitoring
+
+- [Prometheus Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/monitoring/prometheus/_index.md): Prometheus monitoring overview
+- [GitLab Exporter](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/monitoring/prometheus/gitlab_exporter.md): GitLab metrics exporter
+- [GitLab Metrics](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/monitoring/prometheus/gitlab_metrics.md): GitLab metrics configuration
+- [Node Exporter](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/monitoring/prometheus/node_exporter.md): Node metrics exporter
+- [PgBouncer Exporter](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/monitoring/prometheus/pgbouncer_exporter.md): PgBouncer metrics
+- [Postgres Exporter](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/monitoring/prometheus/postgres_exporter.md): PostgreSQL metrics
+- [Redis Exporter](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/monitoring/prometheus/redis_exporter.md): Redis metrics exporter
+- [Registry Exporter](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/monitoring/prometheus/registry_exporter.md): Container registry metrics
+- [Web Exporter](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/monitoring/prometheus/web_exporter.md): Web metrics exporter
+
+## Performance Monitoring
+
+- [Performance Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/monitoring/performance/_index.md): Performance monitoring overview
+- [Grafana Configuration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/monitoring/performance/grafana_configuration.md): Grafana setup and configuration
+- [Performance Bar](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/monitoring/performance/performance_bar.md): Performance bar debugging tool
+
+## Geo Replication
+
+- [Geo Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/_index.md): Geo replication overview
+- [Geo Sites](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo_sites.md): Geo sites management
+- [Geo Glossary](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/glossary.md): Geo terminology reference
+
+## Geo Setup
+
+- [Geo Setup Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/setup/_index.md): Geo setup overview
+- [Database](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/setup/database.md): Geo database configuration
+- [External Database](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/setup/external_database.md): External database for Geo
+- [Two Single Node Sites](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/setup/two_single_node_sites.md): Two-node Geo setup
+- [Two Single Node External Services](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/setup/two_single_node_external_services.md): Geo with external services
+
+## Geo Replication Configuration
+
+- [Configuration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/configuration.md): Geo replication configuration
+- [Container Registry](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/container_registry.md): Container registry replication
+- [Object Storage](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/object_storage.md): Object storage replication
+- [Datatypes](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/datatypes.md): Geo replication datatypes
+- [Multiple Servers](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/multiple_servers.md): Multi-server Geo setup
+- [Selective Synchronization](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/selective_synchronization.md): Selective Geo sync
+- [Single Sign On](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/single_sign_on.md): SSO with Geo
+- [Location Aware Git URL](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/location_aware_git_url.md): Location-aware Git URLs
+- [Security Review](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/security_review.md): Geo security considerations
+- [Usage](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/usage.md): Using Geo replication
+- [Tuning](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/tuning.md): Geo performance tuning
+- [Upgrading Geo Sites](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/upgrading_the_geo_sites.md): Upgrading Geo installations
+- [Disable Geo](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/disable_geo.md): Disabling Geo replication
+- [Remove Geo Site](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/remove_geo_site.md): Removing Geo sites
+- [Pause Resume Replication](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/pause_resume_replication.md): Pausing/resuming replication
+- [Geo Validation Tests](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/geo_validation_tests.md): Geo validation testing
+- [FAQ](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/faq.md): Geo frequently asked questions
+
+## Geo Troubleshooting
+
+- [Geo Troubleshooting Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/troubleshooting/_index.md): Geo troubleshooting overview
+- [Common Issues](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/troubleshooting/common.md): Common Geo issues
+- [Client HTTP](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/troubleshooting/client_http.md): HTTP client troubleshooting
+- [Failover](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/troubleshooting/failover.md): Geo failover troubleshooting
+- [PostgreSQL Replication](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/troubleshooting/postgresql_replication.md): PostgreSQL replication issues
+- [Synchronization Verification](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/replication/troubleshooting/synchronization_verification.md): Sync verification troubleshooting
+
+## Geo Disaster Recovery
+
+- [Disaster Recovery Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/disaster_recovery/_index.md): Disaster recovery overview
+- [Background Verification](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/disaster_recovery/background_verification.md): Background verification processes
+- [Bring Primary Back](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/disaster_recovery/bring_primary_back.md): Restoring primary site
+- [Planned Failover](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/disaster_recovery/planned_failover.md): Planned failover procedures
+- [Failover Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/disaster_recovery/failover_troubleshooting.md): Failover troubleshooting
+- [Planned Failover Multi Node](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/disaster_recovery/runbooks/planned_failover_multi_node.md): Multi-node failover runbook
+- [Planned Failover Single Node](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/disaster_recovery/runbooks/planned_failover_single_node.md): Single-node failover runbook
+
+## Geo Secondary Proxy
+
+- [Secondary Proxy Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/secondary_proxy/_index.md): Secondary proxy overview
+- [Runners](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/geo/secondary_proxy/runners.md): Runners with secondary proxy
+
+## Package Management
+
+- [Packages Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/packages/_index.md): Package management overview
+- [Container Registry](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/packages/container_registry.md): Container registry administration
+- [Container Registry Metadata Database](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/packages/container_registry_metadata_database.md): Registry metadata database
+- [Container Registry Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/packages/container_registry_troubleshooting.md): Registry troubleshooting
+- [Dependency Proxy](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/packages/dependency_proxy.md): Dependency proxy configuration
+
+## GitLab Pages
+
+- [Pages Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/pages/_index.md): GitLab Pages administration
+- [Pages Source](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/pages/source.md): Pages source configuration
+- [Pages Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/pages/troubleshooting.md): Pages troubleshooting guide
+
+## Operations & Maintenance
+
+- [Operations Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/operations/_index.md): Operations overview
+- [Fast SSH Key Lookup](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/operations/fast_ssh_key_lookup.md): SSH key lookup optimization
+- [Filesystem Benchmarking](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/operations/filesystem_benchmarking.md): Filesystem performance testing
+- [GitLab SSHD](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/operations/gitlab_sshd.md): GitLab SSH daemon
+- [Moving Repositories](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/operations/moving_repositories.md): Repository migration procedures
+- [Puma](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/operations/puma.md): Puma web server configuration
+- [Rails Console](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/operations/rails_console.md): Rails console access
+- [SSH Certificates](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/operations/ssh_certificates.md): SSH certificate authentication
+- [Restart GitLab](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/restart_gitlab.md): Restarting GitLab services
+- [Housekeeping](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/housekeeping.md): Repository housekeeping
+- [Maintenance Mode](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/maintenance_mode/_index.md): Maintenance mode configuration
+
+## Sidekiq Management
+
+- [Sidekiq Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/sidekiq/_index.md): Sidekiq administration overview
+- [Extra Sidekiq Processes](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/sidekiq/extra_sidekiq_processes.md): Additional Sidekiq processes
+- [Processing Specific Job Classes](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/sidekiq/processing_specific_job_classes.md): Job class processing
+- [Sidekiq Health Check](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/sidekiq/sidekiq_health_check.md): Sidekiq health monitoring
+- [Sidekiq Job Migration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/sidekiq/sidekiq_job_migration.md): Job migration procedures
+- [Sidekiq Memory Killer](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/sidekiq/sidekiq_memory_killer.md): Memory management
+- [Sidekiq Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/sidekiq/sidekiq_troubleshooting.md): Sidekiq troubleshooting
+
+## Rake Tasks
+
+- [Rake Tasks Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/raketasks/_index.md): Rake tasks overview
+- [Check](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/raketasks/check.md): System check tasks
+- [Cleanup](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/raketasks/cleanup.md): Cleanup tasks
+- [Import Export Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/raketasks/import_export_rake_tasks_troubleshooting.md): Import/export troubleshooting
+- [Incoming Email](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/raketasks/incoming_email.md): Incoming email tasks
+- [LDAP](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/raketasks/ldap.md): LDAP management tasks
+- [Maintenance](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/raketasks/maintenance.md): Maintenance tasks
+- [Password](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/raketasks/password.md): Password management tasks
+- [Praefect](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/raketasks/praefect.md): Praefect management tasks
+- [Project Import Export](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/raketasks/project_import_export.md): Project import/export
+- [Service Desk Email](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/raketasks/service_desk_email.md): Service desk email tasks
+- [SMTP](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/raketasks/smtp.md): SMTP configuration tasks
+- [SPDX](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/raketasks/spdx.md): SPDX license tasks
+- [Tokens](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/raketasks/tokens/_index.md): Token management tasks
+- [User Management](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/raketasks/user_management.md): User management tasks
+- [Web Hooks](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/raketasks/web_hooks.md): Webhook management tasks
+- [X509 Signatures](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/raketasks/x509_signatures.md): X.509 signature tasks
+
+## Upload Management
+
+- [Upload Migrate](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/raketasks/uploads/migrate.md): Upload migration tasks
+- [Upload Sanitize](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/raketasks/uploads/sanitize.md): Upload sanitization tasks
+
+## System Administration Settings
+
+- [Settings Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/_index.md): Settings overview
+- [Account and Limit Settings](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/account_and_limit_settings.md): Account and resource limits
+- [Continuous Integration](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/continuous_integration.md): CI/CD settings
+- [Email](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/email.md): Email configuration settings
+- [Event Data](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/event_data.md): Event data configuration
+- [External Authorization](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/external_authorization.md): External authorization service
+- [Help Page](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/help_page.md): Help page customization
+- [Import and Export Settings](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/import_and_export_settings.md): Import/export configuration
+- [Instance Template Repository](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/instance_template_repository.md): Instance template repository
+- [Localization](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/localization.md): Localization settings
+- [Project Integration Management](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/project_integration_management.md): Project integration management
+- [Security and Compliance](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/security_and_compliance.md): Security and compliance settings
+- [Security Contact Information](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/security_contact_information.md): Security contact configuration
+- [Sign In Restrictions](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/sign_in_restrictions.md): Sign-in restrictions
+- [Sign Up Restrictions](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/sign_up_restrictions.md): Sign-up restrictions
+- [Terms](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/terms.md): Terms of service configuration
+- [Third Party Offers](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/third_party_offers.md): Third-party offers settings
+- [Usage Statistics](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/usage_statistics.md): Usage statistics configuration
+- [Visibility and Access Controls](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/visibility_and_access_controls.md): Visibility and access controls
+- [VSCode Extension Marketplace](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/vscode_extension_marketplace.md): VSCode marketplace integration
+
+## Rate Limiting
+
+- [User and IP Rate Limits](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/user_and_ip_rate_limits.md): User and IP rate limiting
+- [Deprecated API Rate Limits](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/deprecated_api_rate_limits.md): Deprecated API rate limits
+- [Files API Rate Limits](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/files_api_rate_limits.md): Files API rate limiting
+- [Git HTTP Rate Limits](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/git_http_rate_limits.md): Git HTTP rate limiting
+- [Git LFS Rate Limits](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/git_lfs_rate_limits.md): Git LFS rate limiting
+- [Import Export Rate Limits](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/import_export_rate_limits.md): Import/export rate limiting
+- [Incident Management Rate Limits](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/incident_management_rate_limits.md): Incident management rate limits
+- [Package Registry Rate Limits](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/package_registry_rate_limits.md): Package registry rate limiting
+- [Protected Paths](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/protected_paths.md): Protected paths configuration
+- [Push Event Activities Limit](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/push_event_activities_limit.md): Push event activity limits
+- [Rate Limit on Groups API](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/rate_limit_on_groups_api.md): Groups API rate limiting
+- [Rate Limit on Issues Creation](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/rate_limit_on_issues_creation.md): Issues creation rate limiting
+- [Rate Limit on Members API](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/rate_limit_on_members_api.md): Members API rate limiting
+- [Rate Limit on Notes Creation](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/rate_limit_on_notes_creation.md): Notes creation rate limiting
+- [Rate Limit on Organizations API](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/rate_limit_on_organizations_api.md): Organizations API rate limiting
+- [Rate Limit on Pipelines Creation](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/rate_limit_on_pipelines_creation.md): Pipelines creation rate limiting
+- [Rate Limit on Projects API](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/rate_limit_on_projects_api.md): Projects API rate limiting
+- [Rate Limit on Users API](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/rate_limit_on_users_api.md): Users API rate limiting
+- [Rate Limits on Git SSH Operations](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/rate_limits_on_git_ssh_operations.md): Git SSH rate limiting
+- [Rate Limits on Raw Endpoints](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/rate_limits_on_raw_endpoints.md): Raw endpoints rate limiting
+- [Sidekiq Job Limits](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/sidekiq_job_limits.md): Sidekiq job limits
+- [Terraform Limits](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/terraform_limits.md): Terraform state limits
+- [Gitaly Timeouts](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/gitaly_timeouts.md): Gitaly operation timeouts
+
+## Integrations
+
+- [Jira Cloud App](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/jira_cloud_app.md): Jira Cloud application integration
+- [Jira Cloud App Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/jira_cloud_app_troubleshooting.md): Jira troubleshooting
+- [Slack App](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/slack_app.md): Slack application integration
+- [SCIM Setup](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/scim_setup.md): SCIM provisioning setup
+- [Diagrams.net](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/integration/diagrams_net.md): Diagrams.net integration
+- [Kroki](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/integration/kroki.md): Kroki diagram service integration
+- [Mailgun](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/integration/mailgun.md): Mailgun email service integration
+- [PlantUML](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/integration/plantuml.md): PlantUML diagram integration
+- [Terminal](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/integration/terminal.md): Web terminal integration
+
+## Email Configuration
+
+- [Email from GitLab](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/email_from_gitlab.md): Outgoing email configuration
+- [Incoming Email](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/incoming_email.md): Incoming email processing
+- [Reply by Email](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/reply_by_email.md): Reply by email configuration
+- [Reply by Email Postfix Setup](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/reply_by_email_postfix_setup.md): Postfix setup for reply by email
+- [S/MIME Signing Email](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/smime_signing_email.md): S/MIME email signing
+
+## Security & Compliance
+
+- [Compliance](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/compliance.md): Compliance overview
+- [Compliance Features](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/compliance/compliance_features.md): Compliance features
+- [Audit Event Reports](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/audit_event_reports.md): Audit event reporting
+- [Audit Event Streaming](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/audit_event_streaming/_index.md): Audit event streaming
+- [Compliance Audit Event Reports](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/compliance/audit_event_reports.md): Compliance audit reports
+- [Compliance Audit Event Streaming](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/compliance/audit_event_streaming.md): Compliance audit streaming
+- [Credentials Inventory](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/credentials_inventory.md): Credentials inventory management
+
+## Abuse & Spam Management
+
+- [Review Abuse Reports](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/review_abuse_reports.md): Abuse report management
+- [Review Spam Logs](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/review_spam_logs.md): Spam log review
+- [Git Abuse Rate Limit](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/reporting/git_abuse_rate_limit.md): Git abuse rate limiting
+- [IP Address Restrictions](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/reporting/ip_addr_restrictions.md): IP address restrictions
+- [Spamcheck](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/reporting/spamcheck.md): Spam detection service
+
+## Advanced Features
+
+- [Feature Flags](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/feature_flags.md): Feature flag administration
+- [File Hooks](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/file_hooks.md): File hook configuration
+- [Server Hooks](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/server_hooks.md): Server-side Git hooks
+- [System Hooks](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/system_hooks.md): System webhook configuration
+- [Custom Project Templates](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/custom_project_templates.md): Custom project templates
+- [Broadcast Messages](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/broadcast_messages.md): System-wide messages
+- [Labels](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/labels.md): Label management
+- [Issue Closing Pattern](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/issue_closing_pattern.md): Issue closing patterns
+- [Diff Limits](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/diff_limits.md): Diff display limits
+- [Merge Request Diffs](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/merge_request_diffs.md): Merge request diff storage
+- [Merge Request Approvals](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/merge_requests_approvals.md): Merge request approval rules
+- [Polling](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/polling.md): Polling configuration
+- [Read Only GitLab](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/read_only_gitlab.md): Read-only mode
+- [Terraform State](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/terraform_state.md): Terraform state management
+- [Inactive Project Deletion](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/inactive_project_deletion.md): Inactive project cleanup
+- [Invalidate Markdown Cache](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/invalidate_markdown_cache.md): Markdown cache invalidation
+
+## Reference Architectures
+
+- [Reference Architectures Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/reference_architectures/_index.md): Architecture overview
+- [1K Users](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/reference_architectures/1k_users.md): 1,000 users architecture
+- [2K Users](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/reference_architectures/2k_users.md): 2,000 users architecture
+- [3K Users](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/reference_architectures/3k_users.md): 3,000 users architecture
+- [5K Users](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/reference_architectures/5k_users.md): 5,000 users architecture
+- [10K Users](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/reference_architectures/10k_users.md): 10,000 users architecture
+- [25K Users](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/reference_architectures/25k_users.md): 25,000 users architecture
+- [50K Users](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/reference_architectures/50k_users.md): 50,000 users architecture
+
+## Package Information
+
+- [Package Information Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/package_information/_index.md): Package information overview
+- [Defaults](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/package_information/defaults.md): Default package configurations
+- [Deprecation Policy](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/package_information/deprecation_policy.md): Package deprecation policies
+- [Licensing](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/package_information/licensing.md): Package licensing information
+- [Omnibus Packages](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/package_information/omnibus_packages.md): Omnibus package details
+- [PostgreSQL Versions](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/package_information/postgresql_versions.md): Supported PostgreSQL versions
+- [Signed Packages](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/package_information/signed_packages.md): Package signing information
+- [Supported OS](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/package_information/supported_os.md): Supported operating systems
+
+## GitLab Dedicated
+
+- [Dedicated Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/dedicated/_index.md): GitLab Dedicated overview
+- [Architecture](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/dedicated/architecture.md): Dedicated architecture
+- [Encryption](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/dedicated/encryption.md): Dedicated encryption
+- [Hosted Runners](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/dedicated/hosted_runners.md): Dedicated hosted runners
+- [Maintenance](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/dedicated/maintenance.md): Dedicated maintenance
+- [Monitor](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/dedicated/monitor.md): Dedicated monitoring
+- [Tenant Overview](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/dedicated/tenant_overview.md): Tenant management
+
+## Dedicated Instance Configuration
+
+- [Configure Instance Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/dedicated/configure_instance/_index.md): Instance configuration overview
+- [Network Security](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/dedicated/configure_instance/network_security.md): Network security configuration
+- [SAML](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/dedicated/configure_instance/saml.md): SAML authentication setup
+- [Users Notifications](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/dedicated/configure_instance/users_notifications.md): User notification configuration
+
+## Dedicated Instance Creation
+
+- [Create Instance Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/dedicated/create_instance/_index.md): Instance creation overview
+- [Storage Types](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/dedicated/create_instance/storage_types.md): Storage type options
+
+## GitLab Duo Self-Hosted
+
+- [GitLab Duo Self-Hosted Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/gitlab_duo_self_hosted/_index.md): GitLab Duo self-hosted overview
+- [Configuration Types](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/gitlab_duo_self_hosted/configuration_types.md): Duo configuration types
+- [Configure Duo Features](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/gitlab_duo_self_hosted/configure_duo_features.md): Duo features configuration
+- [Logging](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/gitlab_duo_self_hosted/logging.md): Duo logging configuration
+- [Supported LLM Serving Platforms](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/gitlab_duo_self_hosted/supported_llm_serving_platforms.md): Supported LLM platforms
+- [Supported Models and Hardware Requirements](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/gitlab_duo_self_hosted/supported_models_and_hardware_requirements.md): Model and hardware requirements
+- [GitLab Duo Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/gitlab_duo_self_hosted/troubleshooting.md): Duo troubleshooting
+
+## Troubleshooting
+
+- [Troubleshooting Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/troubleshooting/_index.md): Troubleshooting overview
+- [Diagnostics Tools](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/troubleshooting/diagnostics_tools.md): Diagnostic tools and utilities
+- [GitLab Rails Cheat Sheet](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/troubleshooting/gitlab_rails_cheat_sheet.md): Rails console cheat sheet
+- [Linux Cheat Sheet](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/troubleshooting/linux_cheat_sheet.md): Linux administration cheat sheet
+- [PostgreSQL Troubleshooting](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/troubleshooting/postgresql.md): PostgreSQL troubleshooting
+- [Test Environments](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/troubleshooting/test_environments.md): Test environment setup
+
+## Logging
+
+- [Logs Index](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/logs/_index.md): Logging overview
+- [Log Parsing](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/logs/log_parsing.md): Log parsing techniques
+- [Tracing Correlation ID](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/logs/tracing_correlation_id.md): Request correlation tracking
+
+## Licensing & Legal
+
+- [License](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/license.md): License management
+- [License File](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/license_file.md): License file configuration
+- [Instance Limits](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/instance_limits.md): Instance resource limits
+- [Instance Review](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/instance_review.md): Instance review process
+
+## Miscellaneous
+
+- [Cells](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/cells.md): GitLab Cells architecture
+- [Cloud Seed](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/cloud_seed.md): Cloud seed configuration
+- [Consul](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/consul.md): Consul service discovery
+- [Docs Self Host](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/docs_self_host.md): Self-hosting documentation
+- [Duo Add On Seat Management with LDAP](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/duo_add_on_seat_management_with_ldap.md): Duo seat management
+- [FLoC](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/settings/floc.md): Federated Learning of Cohorts configuration
+- [Libravatar](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/libravatar.md): Libravatar avatar service
+- [Silent Mode](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/silent_mode/_index.md): Silent mode configuration
+- [Snippets](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/snippets/_index.md): Snippets administration
+- [What's New](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/whats-new.md): What's new feature configuration
+- [Wikis](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/wikis/_index.md): Wiki administration
+- [Clusters KAS](https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/administration/clusters/kas.md): Kubernetes Agent Server configuration

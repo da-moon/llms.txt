@@ -1,0 +1,98 @@
+# TypingMind
+
+> TypingMind is an advanced AI chat interface that supports multiple LLM models including GPT-4, Claude, Gemini, and custom models. It offers enhanced features like system prompts, parameter controls, plugins, knowledge base integration, document upload, and voice capabilities.
+
+TypingMind provides a feature-rich interface for interacting with various AI models, with extensive customization options and productivity tools. It can be used as a web application or installed as a PWA, and offers both individual and team workspace environments.
+
+## Getting Started
+
+- [Install TypingMind App](https://docs.typingmind.com/install-typingmind-app): Instructions for installing TypingMind as a PWA on desktop and mobile
+- [Quickstart](https://docs.typingmind.com/quickstart): Essential guide to getting started with TypingMind
+- [Feature List](https://docs.typingmind.com/feature-list): Comprehensive overview of all available features
+- [Changelog](https://docs.typingmind.com/changelog): Latest updates and feature additions
+
+## AI Models
+
+- [Manage & Connect AI Models](https://docs.typingmind.com/manage-connect-ai-models): How to connect and manage different AI models
+- [Available AI Models](https://docs.typingmind.com/feature-list#available-ai-models): Information about supported AI models including GPT-4, Claude, Gemini, and custom models
+- [Model Configuration](https://docs.typingmind.com/feature-list#model-configuration): Details on configuring model parameters like system instructions, temperature, and tokens
+
+## Core Features
+
+- [System Prompt](https://docs.typingmind.com/system-prompt): How to customize system instructions for AI models
+- [Parameter Settings](https://docs.typingmind.com/parameter-settings): Configure model parameters like temperature, top_p, and max tokens
+- [Chat Management](https://docs.typingmind.com/chat-management): Organize and manage your conversations with folders, search, and tags
+- [General Settings](https://docs.typingmind.com/general-settings): Configure general application settings and preferences
+
+## Prompts and Agents
+
+- [Prompts](https://docs.typingmind.com/prompts): Main prompts documentation page
+- [Use Prompt Library](https://docs.typingmind.com/use-prompt-library): Create, manage, and use prompt templates
+- [Prompt Examples](https://docs.typingmind.com/prompt-examples): Examples of effective prompts
+- [Automatic Prompt Caching](https://docs.typingmind.com/automatic-prompt-caching): How prompt caching works to reduce token usage
+- [Prompt Chaining](https://docs.typingmind.com/prompt-chaining): Connect multiple prompts together
+- [Message Syntax](https://docs.typingmind.com/message-syntax): Special syntax for message formatting
+
+## AI Agents
+
+- [AI Agents Overview](https://docs.typingmind.com/ai-agents-overview): Introduction to AI agents in TypingMind
+- [Write Effective Instruction for AI Agent](https://docs.typingmind.com/write-effective-instruction-for-ai-agent): Guidelines for creating effective agent instructions
+- [AI Agent Examples](https://docs.typingmind.com/ai-agent-examples): Example AI agents and their configurations
+- [Dynamic Context via API](https://docs.typingmind.com/dynamic-context-via-api): How to provide dynamic context to agents
+- [Dynamic Context Use Cases](https://docs.typingmind.com/dynamic-context-use-cases): Use cases for dynamic context
+- [Build Multi-Agent Workflows](https://docs.typingmind.com/build-multi-agent-workflows): Creating workflows with multiple agents
+
+## Plugins
+
+- [Use TypingMind Plugin](https://docs.typingmind.com/use-typingmind-plugin): How to use built-in plugins
+- [Build a TypingMind Plugin](https://docs.typingmind.com/build-a-typingmind-plugin): Create your own plugins
+- [User-contributed Plugins](https://docs.typingmind.com/user-contributed-plugins): Community-created plugins
+- [Share / Import plugins](https://docs.typingmind.com/share-import-plugins): How to share and import plugins
+- [Server Side vs. Client Side Plugin](https://docs.typingmind.com/server-side-vs-client-side-plugin): Different types of plugins
+- [OAuth 2.0 Authentication for Plugins](https://docs.typingmind.com/oauth-2.0-authentication-for-plugins): Authentication for plugins
+- [Create a Plugin Server URL](https://docs.typingmind.com/create-a-plugin-server-url): Setting up plugin servers
+- [Interactive Canvas (Artifacts)](https://docs.typingmind.com/interactive-canvas-artifacts): Using the interactive canvas feature
+- [Web search & Image search](https://docs.typingmind.com/web-search-image-search): Search plugins
+- [Perplexity Search](https://docs.typingmind.com/perplexity-search): Using Perplexity for search
+- [Market News](https://docs.typingmind.com/market-news): Financial news plugin
+
+## Knowledge and Data Integration
+
+- [RAG Knowledge Base](https://docs.typingmind.com/rag-knowledge-base): Create and use knowledge bases for retrieval-augmented generation
+- [Getting started with RAG](https://docs.typingmind.com/rag-knowledge-base#getting-started): Introduction to RAG in TypingMind
+- [Upload your files](https://docs.typingmind.com/rag-knowledge-base#upload-your-files): How to upload files to the knowledge base
+- [Use Knowledge Base in Chat](https://docs.typingmind.com/rag-knowledge-base#use-knowledge-base-in-chat): Using knowledge base in conversations
+- [Connect Your Own Knowledge Base](https://docs.typingmind.com/rag-knowledge-base#connect-your-own-knowledge-base): Connecting external knowledge bases
+- [Upload and Chat with Files](https://docs.typingmind.com/upload-and-chat-with-files): Upload documents and chat about their contents
+
+## Voice Features
+
+- [Text-to-speech](https://docs.typingmind.com/text-to-speech): Convert AI responses to spoken audio
+- [Voice Input (Speech to Text)](https://docs.typingmind.com/voice-input): Use voice commands and dictation with the AI
+
+## Advanced Features
+
+- [Model Context Protocol (MCP) in TypingMind](https://docs.typingmind.com/model-context-protocol-(mcp)-in-typingmind): Using MCP with TypingMind
+- [Setup MCP in TypingMind License Version](https://docs.typingmind.com/model-context-protocol-(mcp)-in-typingmind#setup-mcp-in-typingmind-license-version): MCP setup for license version
+- [Setup MCP in TypingMind Teams Version](https://docs.typingmind.com/model-context-protocol-(mcp)-in-typingmind#setup-mcp-in-typingmind-teams-version): MCP setup for teams version
+- [Typing Mind Extensions](https://docs.typingmind.com/typing-mind-extensions): Extensions for TypingMind
+- [Integrations](https://docs.typingmind.com/integrations): Connect with external services and tools
+
+## Self-hosting and Deployment
+
+- [Static Self-host](https://docs.typingmind.com/static-self-host): Self-hosting TypingMind as a static application
+
+## Account Management
+
+- [Manage License & Devices](https://docs.typingmind.com/manage-license-devices): Managing your license and devices
+- [Cloud Sync & Backup](https://docs.typingmind.com/cloud-sync-backup): Syncing and backing up your data
+
+## Help and Support
+
+- [General FAQs](https://docs.typingmind.com/general-faqs): Frequently asked questions
+- [Security & Compliance](https://docs.typingmind.com/security-compliance): Security and compliance information
+- [Support](https://docs.typingmind.com/support): Getting support for TypingMind
+
+## TypingMind Teams
+
+- [TypingMind Team](https://docs.typingmind.com/typingmind-team): Information about team workspaces and collaboration features

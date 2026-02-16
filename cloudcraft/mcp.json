@@ -7,7 +7,7 @@
         "mcpdoc",
         "mcpdoc",
         "--urls",
-        "Cloudcraft:https://raw.githubusercontent.com/da-moon/llms.txt/master/cloudcraft.txt",
+        "Cloudcraft:https://raw.githubusercontent.com/da-moon/llms.txt/master/cloudcraft/llms.txt",
         "--allowed-domains",
         "raw.githubusercontent.com",
         "--transport",

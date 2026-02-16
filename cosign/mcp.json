@@ -7,7 +7,7 @@
         "mcpdoc",
         "mcpdoc",
         "--urls",
-        "Cosign:https://raw.githubusercontent.com/da-moon/llms.txt/master/cosign.txt",
+        "Cosign:https://raw.githubusercontent.com/da-moon/llms.txt/master/cosign/llms.txt",
         "--allowed-domains",
         "raw.githubusercontent.com",
         "--transport",

@@ -65,6 +65,8 @@ Additional context and important notes
 - `gitlab/`: Collection of GitLab-related documentation converted to llms.txt
   format
 - `typingmind/`: TypingMind-specific llms.txt files
+- `cloudcraft/`: Cloudcraft documentation in `llms.txt` format.
+- `cosign/`: Cosign documentation in `llms.txt` format.
 
 ### MCP Server Configuration
 

@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "cosign-docs-mcp": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "mcpdoc",
+        "mcpdoc",
+        "--urls",
+        "Cosign:https://raw.githubusercontent.com/da-moon/llms.txt/master/cosign.txt",
+        "--allowed-domains",
+        "raw.githubusercontent.com",
+        "--transport",
+        "stdio"
+      ]
+    }
+  }
+}
